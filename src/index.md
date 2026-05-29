@@ -1,16 +1,20 @@
 ---
-title: Home
-layout: base.njk
+title: Moderní Pavlov
 ---
 
-# Welcome to Moderni Pavlov
+# Vítejte na webu sdružení nezávislých kandidátů
 
-This is your Eleventy static site. Edit this content to get started!
+## VOLBA PRO MODERNÍ PAVLOV
 
-## Getting Started
+Jsme sdružení nezávislých kandidátů pro obecní volby v roce 2022 v obci Pavlov
+na jižní Moravě. Mezi naše priority patří zejména upravenost obce, bezpečnost
+chodců a rodičů s kočárky, otevřenost a informovanost občanů o dění v obci a
+hospodaření obecního úřadu, dobrá vyváženost naplňování potřeb místních občanů s
+turistikou atd. Chceme, aby náš Pavlov byl mezi nejprogresivnějšími obcemi na
+Mikulovsku.
 
-- Modify `src/index.md` to change this page
-- Add new markdown files in `src/` to create new pages
-- Update layouts in `src/_layouts/`
-- Add includes in `src/_includes/`
-- Customize styles in `src/css/style.css`
+Jsme otevřeni Vašim připomínkám a námětům. Pokud máte jakékoliv náměty a
+připomínky, kontaktujte nás osobně, na e-mailu pavel@krska.com nebo přes naši
+facebookovou stránku.
+
+Více zde: (https://volba-pro-moderni-pavlov.webnode.cz/)

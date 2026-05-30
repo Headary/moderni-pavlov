@@ -1,0 +1,21 @@
+---
+title: Novinky
+permalink: /novinky/
+---
+
+<div class="news-list">
+  {% for item in collections.news %}
+    <article class="news-item mb-4 pb-4 border-bottom">
+      <h2 class="h4 mb-2">
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+      </h2>
+      <div class="text-muted small mb-3">
+        {% if item.data.date %}
+          <time datetime="{{ item.data.date }}">
+            {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+          </time>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+{% extends "base.njk" %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container py-5">
+    <article>
+        <h1>{{ title | safe }}</h1>
+        {{ content | safe }}
+    </article>
+</main>
+{% endblock %}

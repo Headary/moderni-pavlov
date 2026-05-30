@@ -32,6 +32,13 @@ export default function (eleventyConfig) {
     eleventyConfig.addExtension("scss", scssConfig);
     eleventyConfig.addTemplateFormats("scss");
 
+    // Create a collection for news items sorted by date
+    eleventyConfig.addCollection("news", function (collection) {
+        return collection
+            .getFilteredByGlob("src/novinky/**/*.md")
+            .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+    });
+
     return {
         dir: {
             input: "src",

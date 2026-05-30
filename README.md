@@ -7,8 +7,7 @@ je možné psát ve více formátech, preferovaným je ale Markdown (`.md`), kte
 následně zpracován do podoby HTML.
 
 Jednotlivé dokumenty jsou následně dle konfigurací obaleny do layoutu a případně
-jsou k nim naimportovány další komponenty. Layouty jsou ve formátu `.html`,
-které je ale před exportem zprocesován jako [Liquid
-template](https://www.11ty.dev/docs/languages/liquid/), viz
-[dokumentaci](https://www.11ty.dev/docs/languages/html/). Díky tomu je možné
-templaty mezi sebou importovat a používat další funkce jako if, loop atd.
+jsou k nim naimportovány další komponenty. Layouty jsou ve formátu `.njk`,
+([Nunjucks](https://mozilla.github.io/nunjucks/)), který umožňuje templaty mezi
+sebou importovat, definovat a redefinovat bloky a používat další funkce jako if,
+loop atd.

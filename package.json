@@ -12,6 +12,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.100.0"
   }
 }

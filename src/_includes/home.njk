@@ -1,0 +1,12 @@
+{% extends "base.njk" %}
+
+{% block content %}
+{% include "navbar.html" %}
+<header class="bg-primary text-white py-5">
+    <div class="container text-center">
+        <h1 class="display-1 fw-bold mb-3">Moderní Pavlov</h1>
+        <p class="lead">Sdružení nezávislých kandidátů</p>
+    </div>
+</header>
+<main class="container py-5">{{ content | safe }}</main>
+{% endblock %}

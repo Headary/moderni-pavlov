@@ -16,4 +16,4 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 - Přes opoziční postavení jsme se v současném zastupitelstvu snažili prosazovat zásady efektivního hospodaření, dodržování směrnic o zadávání veřejných zakázek a dodržování jednacího řádu.
 - Volte kandidáty, kteří chtějí Pavlov modernější, čistější a bezpečnější. Kandidáti, kteří již dokázali, že pro obec chtějí a umí nezištně pracovat.
 
-Více zde: (https://volba-pro-moderni-pavlov.webnode.cz/o-nas/)
+Více zde: <https://volba-pro-moderni-pavlov.webnode.cz/o-nas/>

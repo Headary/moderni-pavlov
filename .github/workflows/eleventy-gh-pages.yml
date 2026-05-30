@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 26
       - name: Install dependencies
-        run: npm clear-install
+        run: npm clean-install
       - name: Run build
         run: npm run build
       - name: Upload artifact

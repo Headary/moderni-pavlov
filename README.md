@@ -11,3 +11,8 @@ jsou k nim naimportovány další komponenty. Layouty jsou ve formátu `.njk`,
 ([Nunjucks](https://mozilla.github.io/nunjucks/)), který umožňuje templaty mezi
 sebou importovat, definovat a redefinovat bloky a používat další funkce jako if,
 loop atd.
+
+Aby bylo možné stránky hostovat i na doménách se subpaths, tak existuje ENV
+proměnná `ELEVENTY_PATH_PREFIX`, která určuje na kterou subpath mají odkazy
+směřovat. Následně všechny odkazy, pro které je použit filter `| url`, tak jsou
+vygenerovány s tímto prefixem.

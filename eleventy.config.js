@@ -28,6 +28,12 @@ const scssConfig = {
 };
 
 export default function (eleventyConfig) {
+    // Copy Bootstrap JS file
+    eleventyConfig.addPassthroughCopy({
+        "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js":
+            "assets/bootstrap.bundle.min.js",
+    });
+
     // Add support for scss
     eleventyConfig.addExtension("scss", scssConfig);
     eleventyConfig.addTemplateFormats("scss");
@@ -39,11 +45,13 @@ export default function (eleventyConfig) {
             .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
     });
 
-    // Add a filter to handle asset paths with pathPrefix
+    // Add a filter to handle paths with pathPrefix.
+    // Should be used only for absolute paths.
+    const pathPrefix = process.env.ELEVENTY_PATH_PREFIX
+        ? process.env.ELEVENTY_PATH_PREFIX.trimEnd("/")
+        : "";
     eleventyConfig.addNunjucksFilter("url", function (url) {
-        return process.env.ELEVENTY_ENV === "production"
-            ? "/moderni-pavlov" + url
-            : url;
+        return pathPrefix ? pathPrefix + url : url;
     });
 
     return {
@@ -53,9 +61,6 @@ export default function (eleventyConfig) {
         },
         markdownTemplateEngine: "njk",
         htmlTemplateEngine: "njk",
-        pathPrefix:
-            process.env.ELEVENTY_ENV === "production"
-                ? "/moderni-pavlov/"
-                : "/",
+        pathPrefix: pathPrefix + "/",
     };
 }

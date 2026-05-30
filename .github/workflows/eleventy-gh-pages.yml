@@ -38,7 +38,7 @@ jobs:
       - name: Run build
         run: npm run build
         env:
-          ELEVENTY_ENV: production
+          ELEVENTY_PATH_PREFIX: "/moderni-pavlov"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,34 @@
+---
+title: Kandidáti
+layout: page.njk
+---
+
+<h1>Naši Kandidáti</h1>
+
+<p>Poznám tým zkušených a oddaných lidí, kteří mají vizi lepší budoucnosti pro obec Pavlov. Každý z našich kandidátů přináší jedinečné znalosti a zkušenosti v různých oblastech správy obce.</p>
+
+<div class="row g-4">
+    {% for candidate in candidates %}
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm candidate-card">
+                <!-- Candidate Photo -->
+                <div class="candidate-image-wrapper">
+                    <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top">
+                </div>
+
+                <!-- Card Content -->
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">{{ candidate.name | safe }}</h3>
+                    <p class="card-text text-muted small">{{ candidate.role | safe }}</p>
+                    <p class="card-text">{{ candidate.bio | safe }}</p>
+                </div>
+
+                <!-- Footer -->
+                <div class="card-footer">
+                    <small class="text-muted">{{ candidate.focus | safe }}</small>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+</div>

@@ -2,10 +2,20 @@
 
 {% block content %}
 {% include "navbar.njk" %}
-<header class="bg-primary text-white py-5">
+<header class="hero-section text-white py-5">
+    <div class="hero-media">
+        <img src="/assets/pavlov.jpg" alt="">
+    </div>
+
     <div class="container text-center">
-        <h1 class="display-1 fw-bold mb-3">Moderní Pavlov</h1>
-        <p class="lead">Sdružení nezávislých kandidátů</p>
+        <h1 class="display-3 fw-bold mb-2">Moderní Pavlov</h1>
+        <p class="lead mb-2">Sdružení nezávislých kandidátů</p>
+        <p class="subtitle-text mb-4">Představujeme vizi čistší, bezpečnější a progresivnější obce</p>
+
+        <div class="cta-buttons d-flex gap-3 justify-content-center flex-wrap mt-4">
+            <a href="{{ '/program/' | url }}" class="btn btn-light btn-lg fw-bold">Náš Program</a>
+            <a href="{{ '/o-nas/' | url }}" class="btn btn-light btn-lg fw-bold">Poznej Nás</a>
+        </div>
     </div>
 </header>
 <main class="container py-5">{{ content | safe }}</main>

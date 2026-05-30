@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Kandidát 1",
+    "role": "Funkce nebo zaměření",
+    "bio": "Krátký popis kandidáta a jeho zkušenosti v oblasti veřejných služeb a správy obce.",
+    "focus": "Zaměření: Infrastruktura",
+    "photo": "/assets/tmp.png"
+  },
+  {
+    "name": "Kandidát 2",
+    "role": "Funkce nebo zaměření",
+    "bio": "Zaměřuje se na bezpečnost a sociální služby v naší obci s dlouholetými zkušenostmi.",
+    "focus": "Zaměření: Bezpečnost",
+    "photo": "/assets/tmp.png"
+  },
+  {
+    "name": "Kandidát 3",
+    "role": "Funkce nebo zaměření",
+    "bio": "Specialista na rozvoj podnikání a ekonomiku obce s vidinou růstu a prosperity.",
+    "focus": "Zaměření: Ekonomika",
+    "photo": "/assets/tmp.png"
+  },
+  {
+    "name": "Kandidát 4",
+    "role": "Funkce nebo zaměření",
+    "bio": "Angažovaná osoba v oblasti vzdělání, kultury a společenského života v obci.",
+    "focus": "Zaměření: Kultura & Vzdělání",
+    "photo": "/assets/tmp.png"
+  },
+  {
+    "name": "Kandidát 5",
+    "role": "Funkce nebo zaměření",
+    "bio": "Věnuje se ochraně životního prostředí a udržitelnosti s návrhy na zeleň a čistotu.",
+    "focus": "Zaměření: Životní Prostředí",
+    "photo": "/assets/tmp.png"
+  },
+  {
+    "name": "Kandidát 6",
+    "role": "Funkce nebo zaměření",
+    "bio": "Expert na správu a financování veřejných zdrojů s transparentním přístupem.",
+    "focus": "Zaměření: Financování",
+    "photo": "/assets/tmp.png"
+  }
+]

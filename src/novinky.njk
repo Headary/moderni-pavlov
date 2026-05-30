@@ -1,20 +1,36 @@
 ---
 title: Novinky
-permalink: /novinky/
+layout: page.njk
 ---
 
 <div class="news-list">
   {% for item in collections.news %}
-    <article class="news-item mb-4 pb-4 border-bottom">
-      <h2 class="h4 mb-2">
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-      </h2>
-      <div class="text-muted small mb-3">
-        {% if item.data.date %}
-          <time datetime="{{ item.data.date }}">
-            {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' }) }}
-          </time>
-        {% endif %}
+    <article class="card border-0 shadow-sm news-card mb-4">
+      <div class="row g-0">
+        <!-- News content -->
+        <div class="col-md-12">
+          <div class="card-body">
+            {% if item.data.date %}
+              <span class="badge badge-date mb-2">
+                {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'short', day: 'numeric' }) }}
+              </span>
+            {% endif %}
+            
+            <h2 class="card-title fw-bold mb-2">
+              <a href="{{ item.url }}" class="text-decoration-none">{{ item.data.title }}</a>
+            </h2>
+            
+            <p class="card-text text-muted">
+              {% if item.data.excerpt %}
+                {{ item.data.excerpt }}
+              {% else %}
+                {{ content | truncate(150) }}
+              {% endif %}
+            </p>
+            
+            <a href="{{ item.url }}" class="btn btn-sm btn-outline-primary mt-2">Číst Více →</a>
+          </div>
+        </div>
       </div>
     </article>
   {% endfor %}

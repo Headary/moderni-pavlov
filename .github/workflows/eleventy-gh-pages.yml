@@ -37,6 +37,8 @@ jobs:
         run: npm clean-install
       - name: Run build
         run: npm run build
+        env:
+          ELEVENTY_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

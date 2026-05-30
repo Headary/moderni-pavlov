@@ -10,10 +10,10 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Figtree:wght@400;600;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
     </head>
     <body>
         {% block content %}{% endblock %}
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ '/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js' | url }}"></script>
     </body>
 </html>

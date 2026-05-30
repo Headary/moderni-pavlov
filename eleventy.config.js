@@ -39,10 +39,23 @@ export default function (eleventyConfig) {
             .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
     });
 
+    // Add a filter to handle asset paths with pathPrefix
+    eleventyConfig.addNunjucksFilter("url", function (url) {
+        return process.env.ELEVENTY_ENV === "production"
+            ? "/moderni-pavlov" + url
+            : url;
+    });
+
     return {
         dir: {
             input: "src",
             output: "_site",
         },
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+        pathPrefix:
+            process.env.ELEVENTY_ENV === "production"
+                ? "/moderni-pavlov/"
+                : "/",
     };
 }

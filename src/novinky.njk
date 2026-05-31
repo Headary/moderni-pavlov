@@ -1,6 +1,5 @@
 ---
 title: Novinky
-layout: page.njk
 ---
 
 <div class="news-list">
@@ -11,24 +10,24 @@ layout: page.njk
         <div class="col-md-12">
           <div class="card-body">
             {% if item.data.date %}
-              <span class="badge badge-date mb-2">
+              <span class="badge bg-primary mb-2">
                 {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'short', day: 'numeric' }) }}
               </span>
             {% endif %}
-            
+
             <h2 class="card-title fw-bold mb-2">
-              <a href="{{ item.url }}" class="text-decoration-none">{{ item.data.title }}</a>
+              <a href="{{ item.url | url }}" class="text-decoration-none">{{ item.data.title }}</a>
             </h2>
-            
+
             <p class="card-text text-muted">
               {% if item.data.excerpt %}
                 {{ item.data.excerpt }}
               {% else %}
-                {{ content | truncate(150) }}
+                {{ item.content | truncate(200) | safe }}
               {% endif %}
             </p>
-            
-            <a href="{{ item.url }}" class="btn btn-sm btn-outline-primary mt-2">Číst Více →</a>
+
+            <a href="{{ item.url | url }}" class="btn btn-sm btn-outline-primary">Číst Více →</a>
           </div>
         </div>
       </div>

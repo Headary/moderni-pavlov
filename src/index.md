@@ -17,7 +17,3 @@ Mikulovsku.
 Jsme otevřeni Vašim připomínkám a námětům. Pokud máte jakékoliv náměty a
 připomínky, kontaktujte nás osobně, na e-mailu pavel@krska.com nebo přes naši
 facebookovou stránku.
-
-Více zde: <https://volba-pro-moderni-pavlov.webnode.cz/>
-
-<button name="button" class="btn btn-primary">Click me</button>

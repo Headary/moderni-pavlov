@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve --incremental"
+    "dev": "eleventy --serve"
   },
   "keywords": [],
   "author": "",

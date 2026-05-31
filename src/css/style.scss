@@ -11,7 +11,7 @@ $font-family-sans-serif:
 $font-family-base: $font-family-sans-serif;
 $headings-font-family: "Figtree", $font-family-sans-serif;
 
-$primary: #da1551;
+$primary: #c00000;
 $secondary: #2c3e50;
 $accent: #27ae60;
 $light-bg: #f8f9fa;
@@ -21,25 +21,9 @@ $navbar-dark-color: #ffffff;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-/* Typography Enhancements */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: -0.5px;
-    color: $secondary;
-}
-
-body {
-    line-height: 1.6;
-    color: $secondary;
-}
-
 /* Hero Section */
 header.hero-section {
-    background: linear-gradient(135deg, #da1551 0%, #c41246 100%);
+    background: #111111;
     position: relative;
     overflow: hidden;
     min-height: 500px;
@@ -73,7 +57,7 @@ header.hero-section {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(218, 21, 81, 0.7);
+        background: rgba(17, 17, 17, 0.8);
         z-index: 1;
     }
 
@@ -82,31 +66,18 @@ header.hero-section {
         z-index: 2;
     }
 
-    h1 {
-        color: white;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
     .lead {
-        font-weight: 500;
         font-size: 1.2rem;
-        color: rgba(255, 255, 255, 0.95);
+        color: white;
     }
 
     .subtitle-text {
-        opacity: 0.95;
-        font-size: 1.1rem;
-        font-weight: 300;
-        color: rgba(255, 255, 255, 0.9);
+        font-size: 1rem;
+        color: white;
     }
 
     .cta-buttons {
         gap: 1rem;
-
-        .btn {
-            font-weight: 600;
-            padding: 0.625rem 2rem;
-        }
     }
 }
 
@@ -172,11 +143,6 @@ header.hero-section {
         justify-content: center;
         margin-bottom: 1rem;
     }
-
-    h3 {
-        font-size: 1rem;
-        font-weight: 700;
-    }
 }
 
 /* News Cards */
@@ -186,18 +152,16 @@ header.hero-section {
     border-bottom: 3px solid transparent;
 
     &:hover {
-        box-shadow: 0 8px 16px rgba(218, 21, 81, 0.15) !important;
+        box-shadow: 0 8px 32px rgba(var(--bs-primary-rgb), 0.15) !important;
         border-bottom-color: $primary;
 
-        a {
+        h2 > a {
             color: $primary;
         }
     }
 
-    a {
+    h2 > a {
         color: inherit;
-        transition: color 0.3s ease;
-        text-decoration: none;
     }
 
     .news-image-wrapper {
@@ -218,60 +182,7 @@ header.hero-section {
 
     .card-title {
         color: $secondary;
-        font-size: 1.1rem;
-    }
-}
-
-.badge-date {
-    background-color: $primary;
-    color: white;
-    font-weight: 600;
-    padding: 0.35rem 0.75rem;
-}
-
-/* Timeline */
-.timeline {
-    position: relative;
-    padding-left: 40px;
-
-    &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        width: 2px;
-        background: linear-gradient(to bottom, $primary, transparent);
-    }
-}
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
-
-    .timeline-marker {
-        position: absolute;
-        left: -48px;
-        top: 0;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        background: $primary;
-        border: 3px solid white;
-        box-shadow: 0 0 0 3px $primary;
-    }
-}
-
-.timeline-content {
-    padding: 1rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-
-    h4 {
-        color: $primary;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -279,10 +190,6 @@ header.hero-section {
 footer {
     background-color: $secondary;
     color: white;
-
-    h5 {
-        color: white;
-    }
 
     a {
         transition: color 0.3s ease;

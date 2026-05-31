@@ -1,3 +1,4 @@
+import { RenderPlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import path from "node:path";
 import * as sass from "sass";
@@ -51,6 +52,9 @@ export default function (eleventyConfig) {
             pictureAttributes: {},
         },
     });
+
+    // Render plugin to be able to pass markdown to nunjuck templates
+    eleventyConfig.addPlugin(RenderPlugin);
 
     // Copy assets from src/assets to _site/assets
     eleventyConfig.addPassthroughCopy("src/assets");

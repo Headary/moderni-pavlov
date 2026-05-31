@@ -42,6 +42,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         widths: [250, 500, 1000, 1500, 2000],
         urlPath: pathPrefix + "/img/",
+        outputDir: "./_site/img/",
         htmlOptions: {
             imgAttributes: {
                 loading: "lazy",

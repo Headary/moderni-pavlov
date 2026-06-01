@@ -12,9 +12,7 @@ layout: page.njk
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm candidate-card">
                 <!-- Candidate Photo -->
-                <div class="candidate-image-wrapper">
-                    <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top">
-                </div>
+                <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top object-fit-cover">
 
                 <!-- Card Content -->
                 <div class="card-body">

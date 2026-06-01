@@ -14,8 +14,10 @@
         <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
     </head>
     <body>
-        {% block content %}{% endblock %}
-        {% include "footer.njk" %}
+        <div class="full-height-container">
+            {% block content %}{% endblock %}
+            {% include "footer.njk" %}
+        </div>
         <script src="{{ '/assets/bootstrap.bundle.min.js' | url }}"></script>
     </body>
 </html>

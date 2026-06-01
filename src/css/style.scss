@@ -1,6 +1,6 @@
 /* Fonts: headings use Figtree; body uses Atkinson Hyperlegible */
 $font-family-sans-serif:
-    "Inter",
+    "Figtree",
     system-ui,
     -apple-system,
     "Segoe UI",
@@ -9,7 +9,6 @@ $font-family-sans-serif:
     Arial,
     sans-serif;
 $font-family-base: $font-family-sans-serif;
-$headings-font-family: "Figtree", $font-family-sans-serif;
 
 $primary: #c00000;
 $secondary: #2c3e50;
@@ -20,6 +19,16 @@ $border-color: #e9ecef;
 $navbar-dark-color: #ffffff;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.full-height-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+        flex: 1;
+    }
+}
 
 /* Hero Section */
 header.hero-section {
@@ -81,33 +90,43 @@ header.hero-section {
     }
 }
 
-/* Candidate Cards */
-.candidate-card {
-    transition: all 0.3s ease;
-    border: none;
+.hover-card {
+    border: 0;
+    box-shadow: var(--bs-box-shadow-sm);
+    transition: all 0.2s ease;
 
     &:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
     }
+}
 
-    .candidate-image-wrapper {
-        height: 280px;
-        overflow: hidden;
-        background: linear-gradient(135deg, $light-bg 0%, $border-color 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+/* News Cards */
+.news-card {
+    @extend .hover-card;
 
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+    &:hover {
+        h2 > a {
+            color: $primary;
         }
     }
 
-    .card-body {
-        padding: 1.5rem;
+    h2 > a {
+        color: inherit;
+    }
+
+    .card-title {
+        color: $secondary;
+        font-size: 1.2rem;
+    }
+}
+
+/* Candidate Cards */
+.candidate-card {
+    @extend .hover-card;
+
+    .card-img-top {
+        height: 280px;
+        background: linear-gradient(135deg, $light-bg 0%, $border-color 100%);
     }
 
     .card-title {
@@ -118,71 +137,6 @@ header.hero-section {
 
     .card-footer {
         background-color: transparent !important;
-        padding: 1rem 1.5rem;
-    }
-}
-
-/* Program Cards */
-.program-card {
-    padding: 2rem;
-    background: $light-bg;
-    border-radius: 12px;
-    transition: all 0.3s ease;
-
-    &:hover {
-        background: $border-color;
-        transform: translateY(-4px);
-    }
-
-    .program-icon {
-        font-size: 2.5rem;
-        color: $primary;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1rem;
-    }
-}
-
-/* News Cards */
-.news-card {
-    transition: all 0.3s ease;
-    border: none;
-    border-bottom: 3px solid transparent;
-
-    &:hover {
-        box-shadow: 0 8px 32px rgba(var(--bs-primary-rgb), 0.15) !important;
-        border-bottom-color: $primary;
-
-        h2 > a {
-            color: $primary;
-        }
-    }
-
-    h2 > a {
-        color: inherit;
-    }
-
-    .news-image-wrapper {
-        height: 200px;
-        background: linear-gradient(135deg, $light-bg 0%, $border-color 100%);
-        overflow: hidden;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-
-    .card-body {
-        padding: 1.5rem;
-    }
-
-    .card-title {
-        color: $secondary;
-        font-size: 1.2rem;
     }
 }
 
@@ -204,25 +158,5 @@ footer {
 @media (max-width: 768px) {
     header.hero-section {
         min-height: 350px;
-
-        h1 {
-            font-size: 2rem;
-        }
-    }
-
-    .candidate-card .candidate-image-wrapper {
-        height: 200px;
-    }
-
-    .news-card .row {
-        flex-direction: column-reverse;
-    }
-
-    .news-image-wrapper {
-        height: 150px !important;
-    }
-
-    .program-card {
-        padding: 1.5rem;
     }
 }

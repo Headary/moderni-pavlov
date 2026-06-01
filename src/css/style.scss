@@ -10,6 +10,8 @@ $font-family-sans-serif:
     sans-serif;
 $font-family-base: $font-family-sans-serif;
 
+$headings-font-weight: 600;
+
 $primary: #c00000;
 $secondary: #2c3e50;
 $accent: #27ae60;
@@ -35,7 +37,7 @@ header.hero-section {
     background: #111111;
     position: relative;
     overflow: hidden;
-    min-height: 500px;
+    min-height: 350px;
     display: flex;
     align-items: center;
 
@@ -90,28 +92,14 @@ header.hero-section {
     }
 }
 
-.hover-card {
-    border: 0;
-    box-shadow: var(--bs-box-shadow-sm);
-    transition: all 0.2s ease;
-
-    &:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
-    }
-}
-
 /* News Cards */
 .news-card {
-    @extend .hover-card;
-
-    &:hover {
-        h2 > a {
-            color: $primary;
-        }
-    }
-
     h2 > a {
         color: inherit;
+
+        &:hover {
+            color: $primary;
+        }
     }
 
     .card-title {
@@ -122,10 +110,8 @@ header.hero-section {
 
 /* Candidate Cards */
 .candidate-card {
-    @extend .hover-card;
-
     .card-img-top {
-        height: 280px;
+        height: 200px;
         background: linear-gradient(135deg, $light-bg 0%, $border-color 100%);
     }
 
@@ -140,6 +126,12 @@ header.hero-section {
     }
 }
 
+.accordion-button {
+    &:hover {
+        background-color: $accordion-button-active-bg;
+    }
+}
+
 /* Footer */
 footer {
     background-color: $secondary;
@@ -151,12 +143,5 @@ footer {
         &:hover {
             color: $primary !important;
         }
-    }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header.hero-section {
-        min-height: 350px;
     }
 }

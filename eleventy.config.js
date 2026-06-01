@@ -16,7 +16,7 @@ const scssConfig = {
             return;
         }
 
-        let result = sass.compileString(inputContent, {
+        let result = await sass.compileStringAsync(inputContent, {
             loadPaths: [parsed.dir || ".", this.config.dir.includes],
         });
 

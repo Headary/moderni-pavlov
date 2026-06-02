@@ -77,7 +77,6 @@ npm run dev      # Start dev server with live reload (http://localhost:8080)
 ### 4. **Path Prefix Support**
 
 - **Environment Variable**: `ELEVENTY_PATH_PREFIX` enables hosting on subpaths
-- **Filter**: `| url` filter on all links to handle path prefixing
 - **Use Case**: Host on `example.com/subpath/` without hard-coding paths
 - **Configuration**: Set in `eleventy.config.js` and applied via filter
 
@@ -167,7 +166,6 @@ npm run dev      # Start dev server with live reload (http://localhost:8080)
 ## Important Considerations
 
 - **Static Generation**: No server-side code execution; all pages pre-built
-- **Path Handling**: Always use `| url` filter for links to support path prefix
 - **Image files**: Image files are handled by eleventyImageTransformPlugin that autogenerates needed sizes. URL filter is not needed, automatically handled.
 - **Language**: Content is in Czech; locale is `lang="cs"`
 - **Responsive**: Bootstrap grid system used for responsive layouts

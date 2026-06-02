@@ -14,5 +14,4 @@ loop atd.
 
 Aby bylo možné stránky hostovat i na doménách se subpaths, tak existuje ENV
 proměnná `ELEVENTY_PATH_PREFIX`, která určuje na kterou subpath mají odkazy
-směřovat. Následně všechny odkazy, pro které je použit filter `| url`, tak jsou
-vygenerovány s tímto prefixem.
+směřovat.

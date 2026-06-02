@@ -3,7 +3,7 @@
 {% block content %}
 {% include "navbar.njk" %}
 <main class="container py-5">
-    <a class="btn btn-outline-primary mb-4" href="{{ '/novinky/' | url }}">Zpět na novinky</a>
+    <a class="btn btn-outline-primary mb-4" href="/novinky/">Zpět na novinky</a>
     <article>
         <h1>{{ title | safe }}</h1>
         {{ content | safe }}

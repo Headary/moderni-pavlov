@@ -1,4 +1,4 @@
-import { RenderPlugin } from "@11ty/eleventy";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import path from "node:path";
 import * as sass from "sass";
@@ -30,20 +30,13 @@ const scssConfig = {
 };
 
 export default function (eleventyConfig) {
-    // Add a filter to handle paths with pathPrefix.
-    // Should be used only for absolute paths.
-    const pathPrefix = process.env.ELEVENTY_PATH_PREFIX
-        ? process.env.ELEVENTY_PATH_PREFIX.trimEnd("/")
-        : "";
-    eleventyConfig.addNunjucksFilter("url", function (url) {
-        return pathPrefix ? pathPrefix + url : url;
-    });
+    // --------
+    // Plugins
+    // --------
 
     // Image plugin for autoresizing
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         widths: [250, 500, 1000, 1500, 2000],
-        urlPath: pathPrefix + "/img/",
-        outputDir: "./_site/img/",
         htmlOptions: {
             imgAttributes: {
                 loading: "lazy",
@@ -53,8 +46,12 @@ export default function (eleventyConfig) {
         },
     });
 
-    // Render plugin to be able to pass markdown to nunjuck templates
-    eleventyConfig.addPlugin(RenderPlugin);
+    // Prefix links with pathPrefix
+    eleventyConfig.addPlugin(HtmlBasePlugin);
+
+    // --------
+    // Assets
+    // --------
 
     // Copy assets from src/assets to _site/assets
     eleventyConfig.addPassthroughCopy("src/assets");
@@ -68,6 +65,10 @@ export default function (eleventyConfig) {
     // Add support for scss
     eleventyConfig.addExtension("scss", scssConfig);
     eleventyConfig.addTemplateFormats("scss");
+
+    // --------
+    // Collections
+    // --------
 
     // Create a collection for news items sorted by date
     eleventyConfig.addCollection("news", function (collection) {
@@ -83,6 +84,8 @@ export default function (eleventyConfig) {
         },
         markdownTemplateEngine: "njk",
         htmlTemplateEngine: "njk",
-        pathPrefix: pathPrefix + "/",
+        pathPrefix: process.env.ELEVENTY_PATH_PREFIX
+            ? process.env.ELEVENTY_PATH_PREFIX.trimEnd("/") + "/" // ensure links end with trainling slash
+            : "/",
     };
 }

@@ -145,3 +145,16 @@ footer {
         }
     }
 }
+
+/* Image */
+
+// Generate utility classes for image sizes (img-sm-fluid, img-md-fluid etc.).
+// Has full width up until a break point, where it set a max width.
+@each $breakpoint, $max-width in $container-max-widths {
+    .img-#{$breakpoint}-fluid {
+        @extend .img-fluid;
+        @include media-breakpoint-up($breakpoint) {
+            max-width: $max-width;
+        }
+    }
+}

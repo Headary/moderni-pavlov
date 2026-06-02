@@ -14,7 +14,7 @@ turistikou atd. Chceme, aby náš Pavlov byl mezi nejprogresivnějšími obcemi 
 Mikulovsku.
 
 Jsme otevřeni Vašim připomínkám a námětům. Pokud máte jakékoliv náměty a
-připomínky, kontaktujte nás osobně, na e-mailu pavel@krska.com nebo přes naši
+připomínky, kontaktujte nás osobně, na e-mailu <pavel@krska.com> nebo přes naši
 facebookovou stránku.
 
 {% include "program-accordion.njk" %}

@@ -1,4 +1,4 @@
-media: assets
+media: src/assets
 content:
   - name: news
     label: Novinky
@@ -21,6 +21,7 @@ content:
     label: Kandidáti
     type: file
     path: src/_data/candidates.json
+    list: True
     fields:
       - name: name
         type: string

@@ -1,0 +1,37 @@
+media: assets
+content:
+  - name: news
+    label: Novinky
+    type: collection
+    path: src/novinky
+    fields:
+      - name: title
+        label: Nadpis
+        type: string
+        required: True
+      - name: date
+        label: Datum
+        type: date
+        options:
+          time: False
+          format: yyyy-MM-dd
+      - name: body
+        type: rich-text
+  - name: candidates
+    label: Kandidáti
+    type: file
+    path: src/_data/candidates.json
+    fields:
+      - name: name
+        type: string
+        label: Jméno
+      - name: role
+        type: string
+        label: Funkce
+      - name: bio
+        type: text
+        label: Popisek
+      - name: photo
+        type: file
+        options:
+          extensions: ["png", "jpg"]

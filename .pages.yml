@@ -21,7 +21,7 @@ content:
     label: Stránky
     type: collection
     path: src
-    exclude: ["index.md", "404.md"]
+    exclude: ["_data", "_includes", "assets", "css", "novinky", "index.md", "404.md"]
     fields:
       - name: title
         label: Název

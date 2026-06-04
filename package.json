@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
     "@11ty/eleventy-img": "^6.0.4",
     "bootstrap": "^5.3.8",
     "sass": "^1.100.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.98.0"
   }
 }

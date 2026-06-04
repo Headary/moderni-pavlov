@@ -1,5 +1,38 @@
 media: src/assets
+
 content:
+  - name: main-page
+    label: Hlavní stránka
+    type: file
+    path: src/index.md
+      - name: title
+        label: Název
+        type: string
+        required: true
+      - name: description
+        label: Popisek
+        description: Popisek stránky pro SEO
+        type: text
+      - name: body
+        label: Obsah
+        type: rich-text
+  - name: pages
+    label: Stránky
+    type: collection
+    path: src
+    exclude: ["index.md", "404.md"]
+    fields:
+      - name: title
+        label: Název
+        type: string
+        required: true
+      - name: description
+        label: Popisek
+        description: Popisek stránky pro SEO
+        type: text
+      - name: body
+        label: Obsah
+        type: rich-text
   - name: news
     label: Novinky
     type: collection
@@ -12,10 +45,12 @@ content:
       - name: date
         label: Datum
         type: date
+        required: True
         options:
           time: False
           format: yyyy-MM-dd
       - name: body
+        label: Obsah
         type: rich-text
   - name: candidates
     label: Kandidáti
@@ -24,15 +59,32 @@ content:
     list: True
     fields:
       - name: name
-        type: string
         label: Jméno
-      - name: role
         type: string
+      - name: role
         label: Funkce
+        type: string
       - name: bio
-        type: text
         label: Popisek
+        type: text
       - name: photo
-        type: file
-        options:
-          extensions: ["png", "jpg"]
+        label: Fotka
+        type: image
+
+actions:
+  - name: deploy
+    label: Nasadit stránky
+    workflow: build-and-deploy.yml
+    confirm:
+      title: Nasazení stránek
+      message: Opravdu chceš nasadit a zveřejnit aktuální obsah?
+      button: Ano, nasadit
+
+settings:
+  commit:
+    identity: app
+    templates:
+      create: "cms(create): {path}"
+      update: "cms(update): {path}"
+      delete: "cms(delete): {path}"
+      rename: "cms(rename): {oldPath} -> {newPath}"

@@ -5,6 +5,7 @@ content:
     label: Hlavní stránka
     type: file
     path: src/index.md
+    fields:
       - name: title
         label: Název
         type: string

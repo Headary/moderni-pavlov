@@ -110,38 +110,3 @@ neumí tlačítka, tedy pokud by měl nějaký odkaz vypadat jako tlačítko, je
 přímo do daného `.md` souboru vložit `<a href="https://example.com" class="btn
 btn-primary">Odkaz</a>`, kdy `btn btn-primary` jsou
 [Bootstrap](https://getbootstrap.com/docs/) styly pro tlačítka.
-
-## Online editor
-
-Zdrojové soubory je možné editovat přímo v prohlížeči pomocí Github Codespaces.
-
-- Na stránce repozitáře se vpravo nahoře vybere zelené tlačítko `Code` a záložka
-  `Codespaces`.
-- V sekci `On current branch` se objeví již existující editace. Pokud taková
-  existuje, stačí ji vybrat. Pokud neexistuje, klikne se na tlačítko `Create
-codespace`.
-- Tato akce otevře nové okno a spustí online editor. Chvíli trvá, než se načte,
-  je proto potřeba ho nechat, dokud se vše nenastaví. Po tuto dobu se vlevo
-  dole zobrazí "Připojování ke vzdálenému prostředí" a po plném spuštění se do
-  terminálu vypíše
-    ```
-    Use Cmd/Ctrl + Shift + P -> View Creation Log to see full logs
-    ✔ Finishing up...
-    ✔ Running postCreateCommand...
-    ⠏ Running postStartCommand...
-        › npm run dev
-    ```
-    Jakmile se toto vypíše, je vše nastaveno.
-- Po nastavení editoru je možné upravovat zdrojové soubory. Soubor lze editovat
-  prostým vybráním v levém okně a změnou textu.
-- Uprostřed dole, vedle záložky `Terminál` se nachází `Porty`. Zde je možné
-  najít URL pro live prohlížení stránek.
-- Je možné, že se při editaci udělá chyba a live prohlížení nic změnu nezobrazí.
-  Pro zobrazení chybových hlášek stačí zmáčknout F1 a vyhledat _View Creation
-  Log_. To zobrazí výpis kompilace stránek a případné chyby.
-- Jakmile jsou všechny úpravy hotové, je potřeba změny _commitnout_. V levém
-  panelu se vybere tlačítko "Správa zdrojového kódu". Pomocí tlačítka `+` se
-  vyberou soubory, u který se má propsat změna, nahoře se napíše nějaká zpráva
-  (např. "přidání novinky") a potvrdí se změny.
-- Změny, které se takto zahrnou, se automaticky do pár sekund propíšou do
-  produkční verze.

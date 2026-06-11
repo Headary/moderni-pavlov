@@ -22,6 +22,10 @@ $navbar-dark-color: #ffffff;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+div {
+    scroll-margin-top: 1em;
+}
+
 .full-height-container {
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@ $navbar-dark-color: #ffffff;
 
 /* Hero Section */
 header.hero-section {
-    background: #111111;
+    background: #555555;
     position: relative;
     overflow: hidden;
     min-height: 350px;
@@ -68,7 +72,7 @@ header.hero-section {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(17, 17, 17, 0.45);
+        background: rgba(0, 0, 0, 0.5);
         z-index: 1;
     }
 

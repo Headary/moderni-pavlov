@@ -1,27 +1,15 @@
-media: src/assets
+media:
+  - name: assets
+    input: src/assets
+    output: /assets
+    rename: safe
 
 content:
-  - name: main-page
-    label: Hlavní stránka
-    type: file
-    path: src/index.md
-    fields:
-      - name: title
-        label: Název
-        type: string
-        required: true
-      - name: description
-        label: Popisek
-        description: Popisek stránky pro SEO
-        type: text
-      - name: body
-        label: Obsah
-        type: rich-text
   - name: pages
     label: Stránky
     type: collection
     path: src
-    exclude: ["_data", "_includes", "assets", "css", "novinky", "index.md", "404.md"]
+    exclude: ["_data", "_includes", "assets", "css", "novinky", "program"]
     fields:
       - name: title
         label: Název
@@ -34,6 +22,7 @@ content:
       - name: body
         label: Obsah
         type: rich-text
+
   - name: news
     label: Novinky
     type: collection
@@ -53,6 +42,32 @@ content:
       - name: body
         label: Obsah
         type: rich-text
+
+  - name: program
+    label: Program
+    type: collection
+    path: src/program
+    fields:
+      - name: title
+        label: Název
+        type: string
+        required: true
+      - name: index
+        label: Číslo (pro řazení)
+        type: number
+        options:
+          min: 1
+          max: 100
+      - name: photo
+        label: Fotka
+        type: image
+        options:
+          media: assets
+          path: src/assets/program
+      - name: body
+        label: Obsah
+        type: rich-text
+
   - name: candidates
     label: Kandidáti
     type: file

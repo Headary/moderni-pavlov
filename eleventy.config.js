@@ -31,6 +31,18 @@ const scssConfig = {
 
 export default function (eleventyConfig) {
     // --------
+    // Transforms
+    // --------
+
+    // Remove empty paragraph tags that markdown generates
+    eleventyConfig.addTransform("stripEmptyParagraphs", function (content) {
+        if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+            return content.replace(/<p><\/p>/g, "");
+        }
+        return content;
+    });
+
+    // --------
     // Plugins
     // --------
 
@@ -76,6 +88,12 @@ export default function (eleventyConfig) {
         return collection
             .getFilteredByGlob("src/novinky/**/*.md")
             .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+    });
+
+    eleventyConfig.addCollection("program", function (collection) {
+        return collection
+            .getFilteredByGlob("src/program/**/*.md")
+            .sort((a, b) => a.data.index - b.data.index);
     });
 
     return {

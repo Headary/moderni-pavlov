@@ -1,0 +1,35 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<main class="container py-5">
+
+{{ content | safe }}
+
+<div class="list-group mb-3">
+    {% for program in collections.program %}
+        <a href="#{{ program.fileSlug }}" class="list-group-item list-group-item-action">{{ program.data.index | safe }}. {{ program.data.title }}</a>
+    {% endfor %}
+</div>
+
+{% for program in collections.program %}
+    <div class="row mb-3" id="{{ program.fileSlug }}">
+    {% if program.data.image %}
+        <!-- Image Column -->
+        <div class="col-lg-2 col-md-3">
+          <img src="{{ program.data.image }}" class="img-fluid h-100 object-fit-cover" alt="{{ program.data.title }}">
+        </div>
+        <!-- Content Column -->
+        <div class="col-md-9 col-lg-10">
+    {% else %}
+        <div class="col-12">
+    {% endif %}
+            <div class="d-flex flex-column">
+                <h4 class="text-primary">{{ program.data.index | safe }}. {{ program.data.title }}</h4>
+                <div class="flex-grow-1">{{ program.content | safe }}</div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+</main>
+{% endblock %}

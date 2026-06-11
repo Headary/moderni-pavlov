@@ -10,11 +10,11 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 
 - Rekonstrukce prostoru návsi ve spolupráci s renomovanou zahradní architektkou a při splnění přísných požadavků památkářů. Akce byla mimo prostředků obce financována také ze státní dotace a z příspěvků vinařského spolku.
 
-![Zrekonstruovaná náves](/assets/naves.jpg)
+![Zrekonstruovaná náves](/assets/o-nas/naves.jpg)
 
 - Vybudování „Vinařských Božích muk“ na cestě na Pálavu.
 
-![Boží muka](/assets/bozi-muka.jpg)
+![Boží muka](/assets/o-nas/bozi-muka.jpg)
 
 - Nově vydlážděné prostranství před Kulturním domem a okolo Obecního úřadu - idea a vypracování projektu pro dotaci z MAS Mikulovsko (rok 2008).
 
@@ -23,7 +23,7 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 - Naučná vinařská stezka – vypracování projektu a získání dotace z Vinařského fondu.
 - Vinařské akce – pořádání Dne otevřených sklepů, výstavy vín a dalších vinařských akcí. Finanční prostředky z vinařských akcí byly mimo jiné věnovány na opravu sociálního zařízení v kulturním domě a na nákup lehátek a dalšího vybavení v mateřské škole.
 
-![Výstava vín 2026](/assets/vystava-vin.jpg)
+![Výstava vín 2026](/assets/o-nas/vystava-vin.jpg)
 
 - Léto otevřených sklepů – vypracování projektu a získání dotace z Vinařského fondu.
 - Pořízení chladících zařízení na výstavy vín – vypracování projektu a získání dotace z Jihomoravského kraje.

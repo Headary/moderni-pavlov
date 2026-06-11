@@ -42,6 +42,10 @@ content:
       - name: body
         label: Obsah
         type: rich-text
+        description: "Nadpis je automaticky vložen jako hlavní nadpis. Pro další podnadpisy je proto nutné použít nejvýše první úroveň podnadpisů."
+        options:
+          media: assets
+          path: src/assets/novinky
 
   - name: program
     label: Program

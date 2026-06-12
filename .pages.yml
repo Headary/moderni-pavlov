@@ -94,7 +94,7 @@ content:
 actions:
   - name: deploy
     label: Nasadit stránky
-    workflow: build-and-deploy.yml
+    workflow: merge-prod.yml
     confirm:
       title: Nasazení stránek
       message: Opravdu chceš nasadit a zveřejnit aktuální obsah?

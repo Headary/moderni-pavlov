@@ -2,6 +2,7 @@
 title: K jednání zastupitelstva 25. 6. 2015
 date: 2015-07-23
 ---
+
 Dne 25.6.2015 proběhlo 3. jednání zastupitelstva v tomto roce. Pokud by si někdo
 myslel, že když si na úřední desce obecního úřadu přečetl dokument s nadpisem
 „Usnesení ze 3. zasedání Zastupitelstva obce Pavlov ze dne 25. 6. 2015“
@@ -46,3 +47,4 @@ kde byly anonymizovány osobní údaje dokonce nad rámec toho, co požaduje zá
 Váš Pavel K.
 
 [Anonymizovaný zápis](/assets/novinky/2015-06-zapis-oz-final-anonymizovany.pdf)
+

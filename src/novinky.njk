@@ -2,35 +2,10 @@
 title: Novinky
 ---
 
+{% from "newsItem.njk" import newsItem %}
+
 <div class="news-list">
   {% for item in collections.news %}
-    <article class="card news-card mb-4">
-      <div class="row g-0">
-        <!-- News content -->
-        <div class="col-md-12">
-          <div class="card-body">
-            {% if item.data.date %}
-              <span class="badge bg-primary mb-2">
-                {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'short', day: 'numeric' }) }}
-              </span>
-            {% endif %}
-
-            <h2 class="card-title fw-bold mb-2">
-                <a href="{{ item.url }}" class="text-decoration-none">{{ item.data.title }}</a>
-            </h2>
-
-            <p class="card-text text-muted">
-              {% if item.data.excerpt %}
-                {{ item.data.excerpt }}
-              {% else %}
-                {{ item.content | truncate(200) | safe }}
-              {% endif %}
-            </p>
-
-            <a href="{{ item.url }}" class="btn btn-sm btn-outline-primary">Číst Více →</a>
-          </div>
-        </div>
-      </div>
-    </article>
+    {{ newsItem(item) }}
   {% endfor %}
 </div>

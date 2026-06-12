@@ -2,6 +2,7 @@ import { HtmlBasePlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import path from "node:path";
 import * as sass from "sass";
+import truncate from "truncate-html";
 
 const scssConfig = {
     outputFileExtension: "css",
@@ -31,7 +32,7 @@ const scssConfig = {
 
 export default function (eleventyConfig) {
     // --------
-    // Transforms
+    // Transforms and filters
     // --------
 
     // Remove empty paragraph tags that markdown generates
@@ -40,6 +41,21 @@ export default function (eleventyConfig) {
             return content.replace(/<p><\/p>/g, "");
         }
         return content;
+    });
+
+    // Safely truncate html
+    eleventyConfig.addFilter("htmlTruncate", function (content, len, config) {
+        const mergedConfig = {
+            stripTags: true,
+            reserveLastWord: true,
+            ...config,
+        };
+        return truncate(content, len, mergedConfig);
+    });
+
+    // Replace slice with array.slice
+    eleventyConfig.addFilter("slice", function (arr, start, end) {
+        return arr.slice(start, end);
     });
 
     // --------

@@ -17,3 +17,14 @@ Jsme otevřeni Vašim připomínkám a námětům. Pokud máte jakékoliv námě
 připomínky, kontaktujte nás osobně, na e-mailu [pavel@krska.com](mailto:pavel@krska.com) nebo přes naši
 [facebookovou stránku](https://www.facebook.com/modernipavlov).
 
+## Novinky
+
+{% from "newsItem.njk" import newsItem %}
+
+<div class="news-list">
+  {% for item in collections.news | slice(0, 2)  %}
+    {{ newsItem(item) }}
+  {% endfor %}
+</div>
+
+<a class="btn btn-outline-primary" href="/novinky/">Archiv novinek</a>

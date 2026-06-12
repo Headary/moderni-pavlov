@@ -1,14 +1,15 @@
 ---
 title: O Nás
 ---
-
 # O Nás
+
+Zakladatelem a mluvčím sdružení je Ing. Pavel Krška. Další kandidáty vám představíme co nejdříve.
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 
 ## Stavby a rekonstrukce
 
-- Rekonstrukce prostoru návsi ve spolupráci s renomovanou zahradní architektkou a při splnění přísných požadavků památkářů. Akce byla mimo prostředků obce financována také ze státní dotace a z příspěvků vinařského spolku.
+- Rekonstrukce prostoru návsi ve spolupráci s renomovanou zahradní architektkou a při splnění přísných požadavků památkářů. Před realizací proběhlo představení projektu občanům a ti měli se možnost k návrhu vyjádřit a jejich připomínky byly zapracovány. Akce byla mimo prostředků obce financována také ze státní dotace a z příspěvků vinařského spolku.
 
 ![Zrekonstruovaná náves](/assets/o-nas/naves.jpg)
 
@@ -32,4 +33,4 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 
 - Přes opoziční postavení jsme se v současném zastupitelstvu snažili prosazovat zásady efektivního hospodaření, dodržování směrnic o zadávání veřejných zakázek a dodržování jednacího řádu.
 
-Volte kandidáty, kteří chtějí Pavlov modernější, čistější a bezpečnější. Kandidáti, kteří již dokázali, že pro obec chtějí a umí nezištně pracovat.
+Volte kandidáty, kteří chtějí Pavlov modernější, efektivnější a bezpečnější. Kandidáti, kteří již dokázali, že pro obec chtějí a umí nezištně pracovat.

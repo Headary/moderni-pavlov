@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ title }} - Moderní Pavlov</title>
         <meta name="description" content="{{ description }}"/>
+        <meta property="og:title" content="{{ title }} - Moderní Pavlov" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://modernipavlov.cz/assets/og-image.jpg" />
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+        {% include "analytics.njk" %}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link

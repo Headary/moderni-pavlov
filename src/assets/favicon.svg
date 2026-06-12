@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="line-height:1.4;font-family:Inter;font-size:26.66666667px;-inkscape-font-specification:Inter;text-orientation:auto;fill:#c00000;fill-opacity:1;stroke:none"
+       id="flowRoot1"><flowRegion
+         id="flowRegion1"
+         style="fill:#c00000;fill-opacity:1;stroke:none"><rect
+           id="rect1"
+           width="188.97638"
+           height="188.97638"
+           x="0"
+           y="0"
+           style="fill:#c00000;fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara1"></flowPara></flowRoot>
+    <rect
+       style="fill:#c00000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round"
+       id="rect2"
+       width="50"
+       height="50"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:29.7345px;line-height:1.4;font-family:Inter;-inkscape-font-specification:Inter;text-align:center;text-anchor:middle;stroke-width:1.11504"
+       x="24.093113"
+       y="35.407074"
+       id="text2"><tspan
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Figtree;-inkscape-font-specification:Figtree;fill:#ffffff;fill-opacity:1;stroke-width:1.11504"
+         x="24.093113"
+         y="35.407074">MP</tspan></text>
+  </g>
+</svg>

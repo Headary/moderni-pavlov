@@ -1,5 +1,7 @@
 {% extends "base.njk" %}
 
+{% from "newsItem.njk" import newsItem %}
+
 {% block content %}
 <header class="hero-section text-white py-5">
     <div class="hero-media">
@@ -16,5 +18,14 @@
         </div>
     </div>
 </header>
-<main class="container py-5">{{ content | safe }}</main>
+<main class="container py-5">
+    {{ content | safe }}
+
+    <h2>Novinky</h2>
+    {% for item in collections.news | slice(0, 2) %}
+        {{ newsItem(item) }}
+    {% endfor %}
+
+    <a class="btn btn-outline-primary btn-sm" href="/novinky/">Archiv novinek</a>
+</main>
 {% endblock %}

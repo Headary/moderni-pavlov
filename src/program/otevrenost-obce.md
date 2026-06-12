@@ -42,8 +42,5 @@ transparentně**, budou zveřejňována s dostatečným předstihem a výběr bu
 probíhat podle jasných pravidel.
 - **Zveřejníme pravidla finančních příspěvků** pro občany, např. při narození
 dítěte, na webové stránce obce.
-- Chceme, aby zastupitelstvo schválilo **jasná a transparentní pravidla pro**  
-**pronájmy sálu kulturního domu**, tedy aby to nebylo na libovůli starosty jako  
-dosud. Umožníme komerční využití a zvýhodníme podmínky pro použití místním  
-občanům a spolkům, příp. u kulturních akcí s přínosem pro občany Pavlova i zdarma za splnění předem schválených podmínek.
+- Chceme, aby zastupitelstvo schválilo **jasná a transparentní pravidla pro pronájmy sálu kulturního domu**, tedy aby to nebylo na libovůli starosty jako dosud. Umožníme komerční využití a zvýhodníme podmínky pro použití místním občanům a spolkům, příp. u kulturních akcí s přínosem pro občany Pavlova i zdarma za splnění předem schválených podmínek.
 

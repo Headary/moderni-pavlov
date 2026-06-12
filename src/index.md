@@ -5,8 +5,7 @@ description: Jsme sdružení nezávislých kandidátů pro obecní volby v roce 
 ---
 # Sdružení nezávislých kandidátů Moderní Pavlov
 
-Jsme sdružení nezávislých kandidátů pro obecní volby v roce 2026 v obci Pavlov na jižní Moravě. Mezi naše priority patří zejména upravenost obce, bezpečnost chodců a rodičů s kočárky, otevřenost a informovanost občanů o dění v obci a hospodaření obecního úřadu, promyšlená investiční strategie a dobrá vyváženost naplňování potřeb místních občanů s  
-turistikou atd. 
+Jsme sdružení nezávislých kandidátů pro obecní volby v roce 2026 v obci Pavlov na jižní Moravě. Mezi naše priority patří zejména upravenost obce, bezpečnost chodců a rodičů s kočárky, otevřenost a informovanost občanů o dění v obci, efektivní hospodaření obecního úřadu, promyšlená investiční strategie a dobrá vyváženost naplňování potřeb místních občanů s turistikou atd. 
 
 Nelíbí se nám, jak nás okolní obce už dávno předběhly v budování infrastruktury, čerpání dotací, komunikaci s občany atd. Chce to celkovou změnu přístupu a to nejen změnu kosmetickou, ale zásadní. Obec Pavlov má sloužit všem svým občanům.
 

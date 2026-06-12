@@ -20,9 +20,16 @@ jobs:
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config --global user.name "${GITHUB_ACTOR}"
           git fetch
+          git status
           git switch master
+          git status
           git pull
+          git status
           git switch production
+          git status
           git pull
+          git status
           git merge --no-ff --no-edit master
+          git status
           git push
+          git status

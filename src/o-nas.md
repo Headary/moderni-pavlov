@@ -31,6 +31,6 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 
 ## Aktivity v zastupitelstvu
 
-- Přes opoziční postavení jsme se v současném zastupitelstvu snažili prosazovat zásady efektivního hospodaření, dodržování směrnic o zadávání veřejných zakázek a dodržování jednacího řádu.
+- Přes opoziční postavení jsme se v současném zastupitelstvu snažili prosazovat zásady efektivního hospodaření, otevřeného informování občanů, dodržování směrnic o zadávání veřejných zakázek a dodržování jednacího řádu.
 
 Volte kandidáty, kteří chtějí Pavlov modernější, efektivnější a bezpečnější. Kandidáti, kteří již dokázali, že pro obec chtějí a umí nezištně pracovat.

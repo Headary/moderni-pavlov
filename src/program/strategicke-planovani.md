@@ -39,5 +39,5 @@ Mladé rodiny, které si postaví rodinný dům, musí mít v dnešní době mo�
 bez problémů napojit na ČOV.
 - **Využít dotační programy na zpevnění vybraných polních cest** v majetku obce, aby
 mohly sloužit jako kombinované komunikace i pro cyklisty.
-- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejm. v historické části obce) a až v návaznosti na to řešit rekonstrukci chodníků.
+- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejm. v historické části obce) a v návaznosti na to řešit rekonstrukci chodníků.
 

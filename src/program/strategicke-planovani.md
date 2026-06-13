@@ -19,11 +19,7 @@ akční skupina Mikulovsko.
 neřešeny. Nyní budou bohužel stát násobně více, než by tomu bylo několik let
 zpátky.
 - **Kulturní dům** – Dlouhodobým cílem je revitalizace z dotačních prostředků (zateplení, další východ ze  
-sálu směrem na boční nádvoří). Před zadáním projektu proběhne diskuse s  
-občany. Co nejdříve chceme udělat revizi elektřiny, výměnu světel za nová  
-úsporná, zavedení podružného měření pro pronajaté předsálí a sál a také nové  
-pódium, pod kterým by měly být skladovací prostory pro pivní sety, mantinely  
-atd.
+sálu směrem na boční nádvoří). Před zadáním projektu proběhne diskuse s občany. Co nejdříve chceme udělat revizi elektřiny, výměnu světel za nová úsporná, zavedení podružného měření pro pronajaté předsálí a sál a také nové větší pódium, pod kterým by měly být skladovací prostory pro pivní sety, mantinely atd.
 - **Oprava budovy školy** – Dlouhodobě neřešený problém. Chceme se podívat, jak tuto
 věc řešili v jiných obcích, zjistit dotační programy a vést diskuzi s občany
 nad možným využitím. Jedna z variant je kombinace služeb v přízemí a
@@ -39,5 +35,5 @@ Mladé rodiny, které si postaví rodinný dům, musí mít v dnešní době mo�
 bez problémů napojit na ČOV.
 - **Využít dotační programy na zpevnění vybraných polních cest** v majetku obce, aby
 mohly sloužit jako kombinované komunikace i pro cyklisty.
-- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejm. v historické části obce) a až v návaznosti na to řešit rekonstrukci chodníků.
+- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejm. v historické části obce) a v návaznosti na to řešit rekonstrukci chodníků.
 

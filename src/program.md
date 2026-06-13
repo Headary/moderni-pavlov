@@ -1,10 +1,7 @@
 ---
 title: Program
 ---
-
 # Volební program pro komunální volby 2026
-
-<a href="/assets/moderni-pavlov-program-2026.pdf" target="_blank" class="btn btn-primary mb-2">PDF verze ke stažení</a>
 
 Obecné sliby o podpoře sportu, kulturních akcí, akcí pro seniory a děti a
 neurčitém rozvoji obce vám dávat nebudeme. To totiž není program, ale samozřejmá

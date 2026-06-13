@@ -18,7 +18,7 @@ akční skupina Mikulovsko.
 - **Čekají nás náročné investiční projekty**, které byly dlouhodobě zanedbávány a
 neřešeny. Nyní budou bohužel stát násobně více, než by tomu bylo několik let
 zpátky.
-- **Kulturní dům** – Dlouhodobým cílem je revitalizace z dotačních prostředků (zateplení, fasáda, únikové východy dle aktuálních předpisů, další východ ze sálu směrem na boční nádvoří). Před zadáním projektu proběhne diskuse s občany. Co nejdříve chceme udělat revizi elektřiny, výměnu světel za nová úsporná, zavedení podružného měření pro pronajaté předsálí a sál a také nové větší pódium, pod kterým by měly být skladovací prostory pro pivní sety, mantinely atd.
+- **Kulturní dům** – Dlouhodobým cílem je revitalizace z dotačních prostředků (zateplení, fasáda, únikové východy dle aktuálních předpisů, další východ ze sálu směrem na boční nádvoří). Před zadáním projektu proběhne diskuse s občany. Co nejdříve chceme udělat revizi elektřiny, výměnu světel za nová úsporná, zavedení podružného měření pro pronajaté předsálí a sál a také nové, větší pódium, pod kterým by měly být skladovací prostory pro pivní sety, mantinely atd.
 - **Oprava budovy školy** – Dlouhodobě neřešený problém. Chceme se podívat, jak tuto
 věc řešili v jiných obcích, zjistit dotační programy a vést diskuzi s občany
 nad možným využitím. Jedna z variant je kombinace služeb v přízemí a

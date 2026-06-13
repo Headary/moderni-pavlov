@@ -4,7 +4,7 @@ index: 1
 ---
 - Budeme důsledně **zasílat pozvánky na zasedání zastupitelstva** a všechny důležité
 informace e-mailem z webové stránky obce.
-- V pozvánce na zasedání zastupitelstva se jako občané dozvíte **konkretizaci jednotlivých bodů** (specifikace smluv, parcelní čísla k pozemkům atd.) – ne jen neurčitý body "smlouvy", "vyhláška", "příspěky" atd. jak je tomu teď.
+- V pozvánce na zasedání zastupitelstva se jako občané dozvíte **konkretizaci jednotlivých bodů** (specifikace smluv, parcelní čísla k pozemkům atd.) – nejen neurčitý body "smlouvy", "vyhláška", "příspěky" atd. jak je tomu teď.
 - Stejně tak, pokud to bude možné, budou na webové stránce zveřejňována konkrétní znění projednávaných materiálů.
 - Plán konání zastupitelstev by měl být zveřejňován s větším předstihem, nejen v zákonné lhůtě.
 - Chceme zavést **online přenosy a videozáznamy** z jednání zastupitelstva.

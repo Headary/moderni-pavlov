@@ -10,7 +10,7 @@ informace e-mailem z webové stránky obce.
 - Chceme zavést **online přenosy a videozáznamy** z jednání zastupitelstva.
 - Chceme, aby se na zastupitelstvu **občané dozvěděli podrobné informace** ke každému bodu a aby diskuse probíhala veřejně na zastupitelstvu, ne utajově na "předzastupitelstvu".
 - **Zastupitelé budou informováni a proběhne konzultace důležitých a finančně objemnějších záležitostí**, i když věc spadá do pravomoci starosty (ne jako doposud).
-- **Limitujeme stávající neomezené pravomoci starosty** schvalovat rozpočtová opatření (měnit rozpočet) a sníženíme limit pro samostatné finanční rozhodování starosty na míru obvyklou u obcí naší velikosti.
+- **Limitujeme stávající neomezené pravomoci starosty** schvalovat rozpočtová opatření (měnit rozpočet) a snížíme limit pro samostatné finanční rozhodování starosty na míru obvyklou u obcí naší velikosti.
 - **Založíme oficiální facebookové stránky obce** a budeme komunikovat i tímto způsobem.
 - Budeme řešit stížnosti na (ne)fungování obecního rozhlasu.
 - **Pavlovský zpravodaj** – téma každých voleb, které se nikdy nedotáhlo. Jediný pokus záhy ztroskotal (z různých důvodů). Slibujeme, že pokud budeme mít dostatek hlasů v zastupitelstvu, Pavlovský zpravodaj bude existovat (jak v tištěné, tak v elektronické podobě).

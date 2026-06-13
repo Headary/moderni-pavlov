@@ -8,7 +8,7 @@ informace e-mailem z webové stránky obce.
 - Stejně tak, pokud to bude možné, budou na webové stránce zveřejňována konkrétní znění projednávaných materiálů.
 - Plán konání zastupitelstev by měl být zveřejňován s větším předstihem, nejen v zákonné lhůtě.
 - Chceme zavést **online přenosy a videozáznamy** z jednání zastupitelstva.
-- Chceme, aby se na zastupitelstvu **občané dozvěděli podrobné informace** ke každému bodu a aby diskuse probíhala veřejně na zastupitelstvu, ne utajově na "předzastupitelstvu".
+- Chceme, aby se na zastupitelstvu **občané dozvěděli podrobné informace** ke každému bodu a aby diskuse probíhala veřejně na zastupitelstvu, ne utajeně na "předzastupitelstvu".
 - **Zastupitelé budou informováni a proběhne konzultace důležitých a finančně objemnějších záležitostí**, i když věc spadá do pravomoci starosty (ne jako doposud).
 - **Limitujeme stávající neomezené pravomoci starosty** schvalovat rozpočtová opatření (měnit rozpočet) a snížíme limit pro samostatné finanční rozhodování starosty na míru obvyklou u obcí naší velikosti.
 - **Založíme oficiální facebookové stránky obce** a budeme komunikovat i tímto způsobem.

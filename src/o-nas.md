@@ -3,7 +3,7 @@ title: O Nás
 ---
 # O Nás
 
-Zakladatelem a mluvčím sdružení je Ing. Pavel Krška. Další kandidáty vám představíme co nejdříve.
+Zakladatelem sdružení je Ing. Pavel Krška. Další kandidáty vám představíme co nejdříve.
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 

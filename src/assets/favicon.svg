@@ -25,35 +25,18 @@
          style="fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.0700042" /></flowRegion><flowPara
        id="flowPara1"
        style="stroke-width:0.264583" /></flowRoot>
-  <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round"
+  <path
      id="rect2"
-     width="50"
-     height="50"
-     x="0"
-     y="0" />
-  <g
-     id="g1"
-     transform="translate(-0.50251393,-0.45854434)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:31.7158px;line-height:1.15;font-family:Figtree;-inkscape-font-specification:'Figtree Heavy';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.32551;stroke-linecap:round;stroke-linejoin:round"
-       x="22.907892"
-       y="45.525562"
-       id="text11"><tspan
-         id="tspan11"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Figtree;-inkscape-font-specification:'Figtree Heavy';fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.32551"
-         x="22.907892"
-         y="45.525562">P</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.6044px;line-height:1.15;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.325511;stroke-linecap:round;stroke-linejoin:round"
-       x="8.1637392"
-       y="25.137838"
-       id="text12"><tspan
-         id="tspan12"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.325511"
-         x="8.1637392"
-         y="25.137838">M</tspan></text>
-  </g>
+     style="fill:#c00000;stroke-width:10;stroke-linecap:round"
+     d="M 0,0 H 50 V 50 H 0 Z" />
+  <path
+     d="m 28.504834,35.999992 v -22.00002 h 9.114294 q 2.482859,0 4.400004,0.974287 1.917145,0.974286 2.985717,2.702859 1.100001,1.728573 1.100001,3.991433 0,2.262859 -1.100001,4.02286 -1.068572,1.728573 -2.985717,2.734289 -1.917145,0.974286 -4.400004,0.974286 h -3.300003 v 6.600006 z m 5.814291,-11.942868 h 3.14286 q 1.194287,0 1.917144,-0.66 0.754287,-0.660001 0.754287,-1.728573 0,-1.037144 -0.754287,-1.697145 -0.722857,-0.66 -1.917144,-0.66 h -3.14286 z"
+     id="text11"
+     style="font-weight:900;font-size:31.4286px;line-height:1.15;font-family:Figtree;-inkscape-font-specification:'Figtree Heavy';text-align:justify;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.322563;stroke-linecap:round;stroke-linejoin:round"
+     aria-label="P" />
+  <path
+     d="M 24.117601,35.70369 21.539827,21.762967 16.799092,35.999985 h -0.74074 L 11.184285,21.762967 8.6657697,35.70369 H 5.8509586 L 9.9102124,14.000015 h 1.3481466 l 5.170363,15.837016 4.770364,-15.837016 h 1.333332 l 4.399994,21.703675 z"
+     id="text12"
+     style="font-size:30.3407px;line-height:1.15;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:justify;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.357778;stroke-linecap:round;stroke-linejoin:round"
+     aria-label="M" />
 </svg>

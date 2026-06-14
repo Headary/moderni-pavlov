@@ -71,6 +71,10 @@ content:
       - name: body
         label: Obsah
         type: rich-text
+    view:
+      default:
+        sort: index
+        order: asc
 
   - name: candidates
     label: Kandidáti

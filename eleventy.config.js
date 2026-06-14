@@ -3,6 +3,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import path from "node:path";
 import * as sass from "sass";
 import truncate from "truncate-html";
+import markdownIt from "markdown-it";
 
 const scssConfig = {
     outputFileExtension: "css",
@@ -111,6 +112,17 @@ export default function (eleventyConfig) {
             .getFilteredByGlob("src/program/**/*.md")
             .sort((a, b) => a.data.index - b.data.index);
     });
+
+    // --------
+    // Config
+    // --------
+
+    eleventyConfig.setLibrary(
+        "md",
+        markdownIt({
+            typographer: true,
+        }),
+    );
 
     return {
         dir: {

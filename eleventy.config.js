@@ -121,6 +121,7 @@ export default function (eleventyConfig) {
         "md",
         markdownIt({
             typographer: true,
+            quotes: "„“‚‘",
         }),
     );
 

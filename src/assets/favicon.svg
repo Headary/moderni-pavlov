@@ -11,38 +11,49 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
+  <flowRoot
+     xml:space="preserve"
+     style="font-size:7.05556px;line-height:1.4;font-family:Inter;-inkscape-font-specification:Inter;fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     id="flowRoot1"><flowRegion
+       id="flowRegion1"
+       style="fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.264583"><rect
+         id="rect1"
+         width="50"
+         height="50"
+         x="0"
+         y="0"
+         style="fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.0700042" /></flowRegion><flowPara
+       id="flowPara1"
+       style="stroke-width:0.264583" /></flowRoot>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round"
+     id="rect2"
+     width="50"
+     height="50"
+     x="0"
+     y="0" />
   <g
-     id="layer1">
-    <flowRoot
-       xml:space="preserve"
-       transform="scale(0.26458333)"
-       style="line-height:1.4;font-family:Inter;font-size:26.66666667px;-inkscape-font-specification:Inter;text-orientation:auto;fill:#c00000;fill-opacity:1;stroke:none"
-       id="flowRoot1"><flowRegion
-         id="flowRegion1"
-         style="fill:#c00000;fill-opacity:1;stroke:none"><rect
-           id="rect1"
-           width="188.97638"
-           height="188.97638"
-           x="0"
-           y="0"
-           style="fill:#c00000;fill-opacity:1;stroke:none" /></flowRegion><flowPara
-         id="flowPara1"></flowPara></flowRoot>
-    <rect
-       style="fill:#c00000;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect2"
-       width="50"
-       height="50"
-       x="0"
-       y="0" />
+     id="g1"
+     transform="translate(-0.50251393,-0.45854434)">
     <text
        xml:space="preserve"
-       style="font-size:29.7345px;line-height:1.4;font-family:Inter;-inkscape-font-specification:Inter;text-align:center;text-anchor:middle;stroke-width:1.11504"
-       x="24.093113"
-       y="35.407074"
-       id="text2"><tspan
-         id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Figtree;-inkscape-font-specification:Figtree;fill:#ffffff;fill-opacity:1;stroke-width:1.11504"
-         x="24.093113"
-         y="35.407074">MP</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:31.7158px;line-height:1.15;font-family:Figtree;-inkscape-font-specification:'Figtree Heavy';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.32551;stroke-linecap:round;stroke-linejoin:round"
+       x="22.907892"
+       y="45.525562"
+       id="text11"><tspan
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Figtree;-inkscape-font-specification:'Figtree Heavy';fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.32551"
+         x="22.907892"
+         y="45.525562">P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.6044px;line-height:1.15;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.325511;stroke-linecap:round;stroke-linejoin:round"
+       x="8.1637392"
+       y="25.137838"
+       id="text12"><tspan
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';fill:#c00000;fill-opacity:1;stroke:none;stroke-width:0.325511"
+         x="8.1637392"
+         y="25.137838">M</tspan></text>
   </g>
 </svg>

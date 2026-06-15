@@ -4,6 +4,7 @@ import path from "node:path";
 import * as sass from "sass";
 import truncate from "truncate-html";
 import markdownIt from "markdown-it";
+import { DateTime } from "luxon";
 
 const scssConfig = {
     outputFileExtension: "css",
@@ -57,6 +58,13 @@ export default function (eleventyConfig) {
     // Replace slice with array.slice
     eleventyConfig.addFilter("slice", function (arr, start, end) {
         return arr.slice(start, end);
+    });
+
+    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+        // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+        return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+            "yyyy-LL-dd",
+        );
     });
 
     // Global preprocessor to exclude draft files from build

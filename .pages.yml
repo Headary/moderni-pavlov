@@ -9,7 +9,8 @@ content:
     label: Stránky
     type: collection
     path: src
-    exclude: ["_data", "_includes", "assets", "css", "novinky", "program"]
+    exclude:
+      ["_data", "_includes", "assets", "css", "novinky", "program", "404.md"]
     fields:
       - name: title
         label: Název

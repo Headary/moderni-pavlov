@@ -75,9 +75,9 @@ export default function (eleventyConfig) {
     });
 
     // Global preprocessor to exclude draft files from build
-    const showDrafts = process.env.CF_PAGES_BRANCH !== "production";
-    console.log("CF_PAGES_BRANCH value: " + process.env.CF_PAGES_BRANCH);
-    console.log("Show drafts: " + showDrafts);
+    const showDrafts = // Determine by Cloudflare env variables
+        process.env.CF_PAGES_BRANCH !== "production" &&
+        process.env.WORKERS_CI_BRANCH !== "production";
 
     eleventyConfig.addGlobalData("draft", false); // Add default draft option value
     eleventyConfig.addPreprocessor("drafts", "*", (pageData) => {

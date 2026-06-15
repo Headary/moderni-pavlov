@@ -4,6 +4,7 @@ import path from "node:path";
 import * as sass from "sass";
 import truncate from "truncate-html";
 import markdownIt from "markdown-it";
+import { DateTime } from "luxon";
 
 const scssConfig = {
     outputFileExtension: "css",
@@ -59,6 +60,22 @@ export default function (eleventyConfig) {
         return arr.slice(start, end);
     });
 
+    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+        // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+        return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+            "yyyy-LL-dd",
+        );
+    });
+
+    // Global preprocessor to exclude draft files from build
+    const showDrafts = process.env.CF_PAGES_BRANCH !== "production";
+    eleventyConfig.addGlobalData("draft", true); // Add default draft option value
+    eleventyConfig.addPreprocessor("drafts", "*", (pageData) => {
+        if (pageData.draft && !showDrafts) {
+            return false;
+        }
+    });
+
     // --------
     // Plugins
     // --------
@@ -104,12 +121,14 @@ export default function (eleventyConfig) {
     eleventyConfig.addCollection("news", function (collection) {
         return collection
             .getFilteredByGlob("src/novinky/**/*.md")
+            .filter((item) => !item.data.draft || showDrafts)
             .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
     });
 
     eleventyConfig.addCollection("program", function (collection) {
         return collection
             .getFilteredByGlob("src/program/**/*.md")
+            .filter((item) => !item.data.draft || showDrafts)
             .sort((a, b) => a.data.index - b.data.index);
     });
 
@@ -121,6 +140,7 @@ export default function (eleventyConfig) {
         "md",
         markdownIt({
             typographer: true,
+            quotes: "„“‚‘",
         }),
     );
 

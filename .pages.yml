@@ -9,7 +9,8 @@ content:
     label: Stránky
     type: collection
     path: src
-    exclude: ["_data", "_includes", "assets", "css", "novinky", "program"]
+    exclude:
+      ["_data", "_includes", "assets", "css", "novinky", "program", "404.md"]
     fields:
       - name: title
         label: Název
@@ -19,6 +20,11 @@ content:
         label: Popisek
         description: Popisek stránky pro SEO
         type: text
+      - name: draft
+        label: Koncept
+        description: "Pokud je zaškrtnuto, stránka se nebude zobrazovat na produkci"
+        type: boolean
+        default: false
       - name: body
         label: Obsah
         type: rich-text
@@ -39,6 +45,11 @@ content:
         options:
           time: False
           format: yyyy-MM-dd
+      - name: draft
+        label: Koncept
+        description: "Pokud je zaškrtnuto, stránka se nebude zobrazovat na produkci"
+        type: boolean
+        default: false
       - name: body
         label: Obsah
         type: rich-text

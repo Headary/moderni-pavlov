@@ -10,6 +10,11 @@
             {{ item.data.date.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'short', day: 'numeric' }) }}
           </span>
         {% endif %}
+        {% if item.data.draft %}
+          <span class="badge bg-warning mb-2">
+              Draft
+          </span>
+        {% endif %}
 
         <h2 class="card-title fw-bold mb-2">
             <a href="{{ item.url }}" class="text-decoration-none">{{ item.data.title }}</a>

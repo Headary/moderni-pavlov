@@ -34,6 +34,11 @@
     </head>
     <body>
         <div class="full-height-container">
+            {% if draft %}
+                <div class="alert alert-warning mb-0" role="alert">
+                    Tato stránka je draftem a nebude dostupná na produkci!
+                </div>
+            {% endif %}
             {% include "navbar.njk" %}
             {% block content %}{% endblock %}
             {% include "footer.njk" %}

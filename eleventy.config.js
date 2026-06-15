@@ -59,6 +59,15 @@ export default function (eleventyConfig) {
         return arr.slice(start, end);
     });
 
+    // Global preprocessor to exclude draft files from build
+    const showDrafts = process.env.CF_PAGES_BRANCH !== "production";
+    eleventyConfig.addGlobalData("draft", true); // Add default draft option value
+    eleventyConfig.addPreprocessor("drafts", "*", (pageData) => {
+        if (pageData.draft && !showDrafts) {
+            return false;
+        }
+    });
+
     // --------
     // Plugins
     // --------
@@ -104,12 +113,14 @@ export default function (eleventyConfig) {
     eleventyConfig.addCollection("news", function (collection) {
         return collection
             .getFilteredByGlob("src/novinky/**/*.md")
+            .filter((item) => !item.data.draft || showDrafts)
             .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
     });
 
     eleventyConfig.addCollection("program", function (collection) {
         return collection
             .getFilteredByGlob("src/program/**/*.md")
+            .filter((item) => !item.data.draft || showDrafts)
             .sort((a, b) => a.data.index - b.data.index);
     });
 

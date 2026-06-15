@@ -21,6 +21,13 @@ const scssConfig = {
 
         let result = await sass.compileStringAsync(inputContent, {
             loadPaths: [parsed.dir || ".", this.config.dir.includes],
+            silenceDeprecations: [
+                "mixed-decls",
+                "color-functions",
+                "global-builtin",
+                "import",
+                "if-function",
+            ],
         });
 
         // Map dependencies for incremental builds
@@ -69,7 +76,10 @@ export default function (eleventyConfig) {
 
     // Global preprocessor to exclude draft files from build
     const showDrafts = process.env.CF_PAGES_BRANCH !== "production";
-    eleventyConfig.addGlobalData("draft", true); // Add default draft option value
+    console.log("CF_PAGES_BRANCH value: " + process.env.CF_PAGES_BRANCH);
+    console.log("Show drafts: " + showDrafts);
+
+    eleventyConfig.addGlobalData("draft", false); // Add default draft option value
     eleventyConfig.addPreprocessor("drafts", "*", (pageData) => {
         if (pageData.draft && !showDrafts) {
             return false;

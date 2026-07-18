@@ -22,7 +22,7 @@ Jiří Hlaváč
 
 Vanesa Martincová
 
-
+(další doplnění je v jednání)
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 

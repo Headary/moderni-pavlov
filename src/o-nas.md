@@ -1,9 +1,28 @@
 ---
 title: O Nás
+draft: false
 ---
 # O Nás
 
-Zakladatelem sdružení je Ing. Pavel Krška. Další kandidáty vám představíme co nejdříve.
+Kandidádi pro volby v roce 2026:
+
+Ing. Pavel Krška
+
+Krystýna Černá
+
+Vladimír Foltýn
+
+Vladan Gryc
+
+Roman Benáček
+
+Vlastimil Částek
+
+Jiří Hlaváč
+
+Vanesa Martincová
+
+
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 

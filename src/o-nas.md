@@ -8,7 +8,7 @@ Kandidádi pro volby v roce 2026:
 
 Ing. Pavel Krška
 
-Krystýna Černá
+Kristýna Černá
 
 Vladimír Foltýn
 

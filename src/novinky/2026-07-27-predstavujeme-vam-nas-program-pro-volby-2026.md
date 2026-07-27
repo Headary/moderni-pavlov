@@ -13,16 +13,12 @@ Představujeme vám jasný, konkrétní program, jehož plnění půjde zkontrol
 
 Náš program chceme rozdělit do 7 základních kapitol:
 
-1. Otevřenost obce a informovanost občanů]([https://modernipavlov.cz/program/#otevrenost-obce](https://modernipavlov.cz/program/#otevrenost-obce))
-
-2. Podpora aktivit pro seniory]([https://modernipavlov.cz/program/#podpora-aktivit-pro-seniory](https://modernipavlov.cz/program/#podpora-aktivit-pro-seniory))
-
-3. Sportovní a volnočasové aktivity pro děti]([https://modernipavlov.cz/program/#sportovni-a-volnocasove-aktivity-pro-deti](https://modernipavlov.cz/program/#sportovni-a-volnocasove-aktivity-pro-deti))
-
-4. Strategické plánování a efektivní využívání finančních prostředků obce, aktivní hledání dotačních programů]([https://modernipavlov.cz/program/#strategicke-planovani](https://modernipavlov.cz/program/#strategicke-planovani))
-
-5. Bezpečnost chodců a upravenost obce]([https://modernipavlov.cz/program/#bezpecnost-chodcu-a-upravenost-obce](https://modernipavlov.cz/program/#bezpecnost-chodcu-a-upravenost-obce)) [6. Udržitelná turistika a využití prostředků z turistického ruchu ve prospěch občanů obce](https://modernipavlov.cz/program/#udrzitelna-turistika)
-
-7. Ostatní náměty a návrhy]([https://modernipavlov.cz/program/#ostatni-namety-a-navrhy](https://modernipavlov.cz/program/#ostatni-namety-a-navrhy))
+1. [Otevřenost obce a informovanost občanů](1. [https://modernipavlov.cz/program/#otevrenost-obce](https://modernipavlov.cz/program/#otevrenost-obce))
+2. [Podpora aktivit pro seniory](2. [https://modernipavlov.cz/program/#podpora-aktivit-pro-seniory](https://modernipavlov.cz/program/#podpora-aktivit-pro-seniory))
+3. [Sportovní a volnočasové aktivity pro děti](3. [https://modernipavlov.cz/program/#sportovni-a-volnocasove-aktivity-pro-deti](https://modernipavlov.cz/program/#sportovni-a-volnocasove-aktivity-pro-deti))
+4. [Strategické plánování a efektivní využívání finančních prostředků obce, aktivní hledání dotačních programů](4. [https://modernipavlov.cz/program/#strategicke-planovani](https://modernipavlov.cz/program/#strategicke-planovani))
+5. [Bezpečnost chodců a upravenost obce](5. [https://modernipavlov.cz/program/#bezpecnost-chodcu-a-upravenost-obce](https://modernipavlov.cz/program/#bezpecnost-chodcu-a-upravenost-obce)) 
+6. [Udržitelná turistika a využití prostředků z turistického ruchu ve prospěch občanů obce](https://modernipavlov.cz/program/#udrzitelna-turistika)
+7. [Ostatní náměty a návrhy](1. [https://modernipavlov.cz/program/#ostatni-namety-a-navrhy](https://modernipavlov.cz/program/#ostatni-namety-a-navrhy))
 
 -> **[Kompletní program](https://modernipavlov.cz/program/)**

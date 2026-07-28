@@ -3,12 +3,11 @@ title: Představujeme Vám náš program pro volby 2026
 date: 2026-07-27
 draft: false
 ---
-
 Obecné sliby o podpoře sportu, kulturních akcí, akcí pro seniory a děti a neurčitém rozvoji obce vám dávat nebudeme. To totiž není program, ale samozřejmá povinnost každého starosty, a tyto aktivity budeme samozřejmě podporovat a rozvíjet.
 
 Je nám líto, že okolní obce Pavlov již dávno předstihly v oblasti rozvoje, infrastruktury a komunikace, a máme za to, že obec Pavlov zdaleka nevyužívá svůj potenciál a měla by občanům nabídnout daleko více. Myslíme si, že Pavlov potřebuje změnu a my vám ji nabízíme.
 
-Nestačí udělat pár efektních akcí před volbami. Je potřeba pracovat systematicky koncepčně celé volební období.
+Nestačí udělat pár akcí před volbami. Je potřeba pracovat systematicky a koncepčně celé volební období.
 
 Představujeme vám jasný, konkrétní program, jehož plnění půjde zkontrolovat na konci volebního období.
 

@@ -11,10 +11,10 @@ draft: true
 <div class="d-flex flex-col justify-content-center">
     <div class="row g-4">
         {% for candidate in candidates %}
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-4">
                 <div class="card h-100 shadow-sm candidate-card">
                     <!-- Candidate Photo -->
-                    <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top object-fit-cover">
+                    <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top">
 
                     <!-- Card Content -->
                     <div class="card-body">

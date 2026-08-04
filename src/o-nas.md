@@ -6,23 +6,41 @@ draft: false
 
 Kandidádi pro volby v roce 2026:
 
-Ing. Pavel Krška
+**Ing. Pavel Krška**
 
-Kristýna Černá
+manažer, ekonom
 
-Vladan Gryc
+**Kristýna Černá**
 
-Mgr. Hana Stehlíková, MSc.
+podnikatelka, místopředsedkyně výboru JMK pro cestovní ruch
 
-Vladimír Foltýn
+**Vladan Gryc**
 
-Roman Benáček
+provozní
 
-Vlastimil Částek
+**Mgr. Hana Stehlíková, MSc.**
 
-Jiří Hlaváč
+fotografka
 
-Vanesa Martincová
+**Vladimír Foltýn**
+
+vinař
+
+**Roman Benáček**
+
+zámečník
+
+**Vlastimil Částek**
+
+OSVČ
+
+**Jiří Hlaváč**
+
+stavební technik
+
+**Vanesa Martincová**
+
+studentka Univerzity T. Bati
 
 
 

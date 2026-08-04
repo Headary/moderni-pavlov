@@ -12,7 +12,7 @@ manažer, ekonom
 
 **Kristýna Černá**
 
-podnikatelka, místopředsedkyně výboru JMK pro cestovní ruch
+podnikatelka, místopředsedkyně výboru Jihomoravského kraje pro cestovní ruch
 
 **Vladan Gryc**
 

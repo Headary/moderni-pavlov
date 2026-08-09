@@ -96,8 +96,8 @@ content:
       - name: name
         label: Jméno
         type: string
-      - name: role
-        label: Funkce
+      - name: work
+        label: Zaměstnání
         type: string
       - name: bio
         label: Popisek

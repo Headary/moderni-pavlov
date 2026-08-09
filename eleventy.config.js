@@ -87,6 +87,16 @@ export default function (eleventyConfig) {
     });
 
     // --------
+    // Shortcodes
+    // --------
+
+    const markdown = new markdownIt();
+    eleventyConfig.addNunjucksShortcode(
+        "markdown",
+        (content) => `<span>${markdown.render(content)}</span>`,
+    );
+
+    // --------
     // Plugins
     // --------
 

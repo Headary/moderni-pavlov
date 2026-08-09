@@ -17,7 +17,7 @@
                     <div class="card-body">
                         <h3 class="card-title fw-bold">{{ candidate.name | safe }}</h3>
                         <p class="card-text text-muted small">{{ candidate.work | safe }}</p>
-                        <p class="card-text">{{ candidate.bio | safe }}</p>
+                        <p class="card-text">{% markdown candidate.bio %}</p>
                     </div>
 
                     <!-- Footer -->

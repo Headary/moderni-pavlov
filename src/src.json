@@ -1,4 +1,4 @@
 {
-  "layout": "page.njk",
+  "layout": "layouts/page.njk",
   "draft": false
 }

@@ -101,7 +101,7 @@ content:
         type: string
       - name: bio
         label: Popisek
-        type: text
+        type: rich-text
       - name: photo
         label: Fotka
         type: image

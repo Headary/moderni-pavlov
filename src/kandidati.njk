@@ -19,14 +19,14 @@ draft: true
                     <!-- Card Content -->
                     <div class="card-body">
                         <h3 class="card-title fw-bold">{{ candidate.name | safe }}</h3>
-                        <p class="card-text text-muted small">{{ candidate.role | safe }}</p>
+                        <p class="card-text text-muted small">{{ candidate.work | safe }}</p>
                         <p class="card-text">{{ candidate.bio | safe }}</p>
                     </div>
 
                     <!-- Footer -->
-                    <div class="card-footer">
+                    <!--<div class="card-footer">
                         <small class="text-muted">{{ candidate.focus | safe }}</small>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         {% endfor %}

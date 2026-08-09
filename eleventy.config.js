@@ -87,13 +87,25 @@ export default function (eleventyConfig) {
     });
 
     // --------
-    // Shortcodes
+    // Markdown
     // --------
 
-    const markdown = new markdownIt();
+    const markdown = new markdownIt({
+        typographer: true,
+        quotes: "„“‚‘",
+    });
+
     eleventyConfig.addNunjucksShortcode(
         "markdown",
         (content) => `<span>${markdown.render(content)}</span>`,
+    );
+
+    eleventyConfig.setLibrary(
+        "md",
+        markdownIt({
+            typographer: true,
+            quotes: "„“‚‘",
+        }),
     );
 
     // --------
@@ -154,14 +166,6 @@ export default function (eleventyConfig) {
     // --------
     // Config
     // --------
-
-    eleventyConfig.setLibrary(
-        "md",
-        markdownIt({
-            typographer: true,
-            quotes: "„“‚‘",
-        }),
-    );
 
     return {
         dir: {

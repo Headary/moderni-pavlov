@@ -1,12 +1,9 @@
----
-title: Kandidáti
-layout: page.njk
-draft: true
----
+{% extends "base.njk" %}
 
-<h1>Naši Kandidáti</h1>
+{% block content %}
+<main class="container py-5">
 
-<p>Poznám tým zkušených a oddaných lidí, kteří mají vizi lepší budoucnosti pro obec Pavlov. Každý z našich kandidátů přináší jedinečné znalosti a zkušenosti v různých oblastech správy obce.</p>
+{{ content | safe }}
 
 <div class="d-flex flex-col justify-content-center">
     <div class="row g-4">
@@ -32,3 +29,6 @@ draft: true
         {% endfor %}
     </div>
 </div>
+
+</main>
+{% endblock %}

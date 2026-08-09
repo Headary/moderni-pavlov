@@ -107,7 +107,6 @@ export default function (eleventyConfig) {
             imgAttributes: {
                 class: "img-md-fluid d-block mx-auto",
                 loading: "lazy",
-                sizes: "(max-width: 250px) 250px, (max-width: 500px) 500px, (max-width: 1000px) 1000px, (max-width: 1500px) 1500px, 2000px",
             },
             pictureAttributes: {},
         },

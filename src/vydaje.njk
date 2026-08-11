@@ -1,0 +1,128 @@
+---
+title: Výdaje
+---
+
+<div class="container my-5">
+    <h1 class="mb-4">Přehled hospodaření a výdajů obce za rok 2025</h1>
+
+    <!-- Graf -->
+    <div class="card mb-5 shadow-sm">
+        <div class="card-body">
+            <div id="budgetChart" data-budget-chart='{{ spendings.RekapitulacePrijmyVydaje.Radek | dump | safe }}' style="position: relative; height: 450px; width: 100%;"></div>
+        </div>
+    </div>
+
+    <!-- Vedle sebe: Největší příjmy & Největší výdaje -->
+    <div class="row mb-5">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h5 class="card-title mb-0">Největší příjmové položky (dle výsledku)</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col" style="width: 20%;">Kód</th>
+                                    <th scope="col" style="width: 45%;">Název položky</th>
+                                    <th scope="col" class="text-end" style="width: 35%;">Výsledek</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in topPrijmy %}
+                                <tr>
+                                    <td><code>{{ row.code }}</code></td>
+                                    <td>{{ row.name }}</td>
+                                    <th class="text-end font-monospace">{{ row.vysledekFormatted }}</th>
+                                </tr>
+                                {% else %}
+                                <tr>
+                                    <td colspan="3" class="text-center text-muted">Žádná data k zobrazení</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="card-title mb-0">Největší výdajové položky (dle výsledku)</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col" style="width: 20%;">Kód</th>
+                                    <th scope="col" style="width: 45%;">Název položky</th>
+                                    <th scope="col" class="text-end" style="width: 35%;">Výsledek</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in topVydaje %}
+                                <tr>
+                                    <td><code>{{ row.code }}</code></td>
+                                    <td>{{ row.name }}</td>
+                                    <th class="text-end font-monospace">{{ row.vysledekFormatted }}</th>
+                                </tr>
+                                {% else %}
+                                <tr>
+                                    <td colspan="3" class="text-center text-muted">Žádná data k zobrazení</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Třetí tabulka pod nimi -->
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="card-title mb-0">Největší rozdíly výdajů (Rozpočet po změnách vs. Výsledek)</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col" style="width: 15%;">Kód</th>
+                                    <th scope="col" style="width: 35%;">Název položky</th>
+                                    <th scope="col" class="text-end" style="width: 16%;">Rozpočet po změnách</th>
+                                    <th scope="col" class="text-end" style="width: 16%;">Výsledek</th>
+                                    <th scope="col" class="text-end" style="width: 18%;">Rozdíl</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in topVydajeDiffs %}
+                                <tr>
+                                    <td><code>{{ row.code }}</code></td>
+                                    <td>{{ row.name }}</td>
+                                    <td class="text-end font-monospace">{{ row.rozpocetPoZmenachFormatted }}</td>
+                                    <td class="text-end font-monospace">{{ row.vysledekFormatted }}</td>
+                                    <th class="text-end font-monospace text-primary">{{ row.diffFormatted }}</th>
+                                </tr>
+                                {% else %}
+                                <tr>
+                                    <td colspan="5" class="text-center text-muted">Žádná data k zobrazení</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/chart.umd.js"></script>
+<script src="/js/graph.js"></script>

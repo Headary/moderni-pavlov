@@ -133,11 +133,14 @@ export default function (eleventyConfig) {
 
     // Copy assets from src/assets to _site/assets
     eleventyConfig.addPassthroughCopy("src/assets");
+    eleventyConfig.addPassthroughCopy("src/js");
 
-    // Copy Bootstrap JS file
+    // Copy Bootstrap & Chart.js JS files
     eleventyConfig.addPassthroughCopy({
         "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js":
             "assets/bootstrap.bundle.min.js",
+        "node_modules/chart.js/dist/chart.umd.js":
+            "assets/chart.umd.js",
     });
 
     // Add support for scss

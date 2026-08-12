@@ -15,7 +15,7 @@
         <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
 
         <!-- Analytics -->
-        {% include "analytics.njk" %}
+        {% include "components/analytics.njk" %}
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,9 +39,9 @@
                     Tato stránka je draftem a nebude dostupná na produkci!
                 </div>
             {% endif %}
-            {% include "navbar.njk" %}
+            {% include "components/navbar.njk" %}
             {% block content %}{% endblock %}
-            {% include "footer.njk" %}
+            {% include "components/footer.njk" %}
         </div>
     </body>
 </html>

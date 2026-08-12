@@ -1,4 +1,4 @@
 {
-  "layout": "home.njk",
+  "layout": "layouts/home.njk",
   "sitemapPriority": 1.0
 }

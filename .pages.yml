@@ -96,23 +96,23 @@ content:
       - name: name
         label: Jméno
         type: string
-      - name: role
-        label: Funkce
+      - name: work
+        label: Zaměstnání
         type: string
       - name: bio
         label: Popisek
-        type: text
+        type: rich-text
       - name: photo
         label: Fotka
         type: image
 
 actions:
   - name: deploy
-    label: Nasadit stránky
+    label: Nasadit stránky na produkci
     workflow: merge-prod.yml
     confirm:
-      title: Nasazení stránek
-      message: Opravdu chceš nasadit a zveřejnit aktuální obsah?
+      title: Nasazení stránek na produkci
+      message: Opravdu chceš nasadit a zveřejnit aktuální obsah na produkční verzi?
       button: Ano, nasadit
 
 settings:

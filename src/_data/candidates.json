@@ -1,65 +1,55 @@
 [
   {
     "name": "Ing. Pavel Krška",
-    "role": "Funkce nebo zaměření",
-    "bio": "Krátký popis kandidáta a jeho zkušenosti v oblasti veřejných služeb a správy obce.",
-    "focus": "Zaměření: Infrastruktura",
-    "photo": "/assets/tmp.png"
+    "work": "manažer, ekonom",
+    "bio": "Na obecním dění se podílím již mnoho let. Na Pavlovu mi záleží a jsem přesvědčen, že by naše obec měla fungovat daleko lépe. Moje priority:\n\n- efektivní a transparentní hospodaření obce \n- bezpečnost chodců, zejm. rodičů s kočárkem a seniorů  \n- otevřeně informující obec\n- stejný přístup ke všem občanům.\n\n",
+    "photo": "/assets/kandidati/krska.jpg"
   },
   {
     "name": "Kristýna Černá",
-    "role": "Funkce nebo zaměření",
-    "bio": "Zaměřuje se na bezpečnost a sociální služby v naší obci s dlouholetými zkušenostmi.",
-    "focus": "Zaměření: Bezpečnost",
-    "photo": "/assets/tmp.png"
+    "work": "podnikatelka, místopředsedkyně výboru Jihomoravského kraje pro cestovní ruch",
+    "bio": "Veřejným životem se zabývám 12 let. Mám zkušenosti z krajské politiky i komunální. Ráda je využiji ve prospěch naší krásné obce. Moje priority: \n\n- otevřená radnice, která komunikuje a naslouchá občanům \n- více příjmů pro obec díky chytrému využití a řízení cestovního ruchu \n- podpora dětí, sportu, kultury a života v obci po celý rok \n- modernizace Pavlova s respektem k jeho tradicím a charakteru.\n\n",
+    "photo": "/assets/kandidati/cerna.jpg"
   },
   {
     "name": "Vladan Gryc",
-    "role": "Funkce nebo zaměření",
-    "bio": "Specialista na rozvoj podnikání a ekonomiku obce s vidinou růstu a prosperity.",
-    "focus": "Zaměření: Ekonomika",
-    "photo": "/assets/tmp.png"
+    "work": "provozní ",
+    "bio": "Pracoval jsem dlouhé roky v Itálii, ale díky rybaření, svému koníčku, jsem objevil Pavlov. Proto jsem se vrátil do Česka a založil si nový domov v Pavlově, kde take podnikám v oboru gastronomie. Moje priority:\n\n- efektivní hospodaření obce s využitím dotací z EU\n- zlepšení kulturního života v obci\n- modernizace a více využívání kulturního domu a jeho přilehlých prostor.\n\n",
+    "photo": "/assets/kandidati/gryc.jpg"
   },
   {
     "name": "Mgr. Hana Stehlíková, MSc.",
-    "role": "Funkce nebo zaměření",
-    "bio": "Angažovaná osoba v oblasti vzdělání, kultury a společenského života v obci.",
-    "focus": "Zaměření: Kultura & Vzdělání",
-    "photo": "/assets/tmp.png"
+    "work": "fotografka",
+    "bio": "Jsem máma dvou dětí, která v Pavlově vyrostla a dnes tu žiji se svou rodinou. Záleží mi na tom, aby byl Pavlov příjemným místem pro každodenní život. Přála bych si, aby byl Pavlov místem, kde bude:\n\n- bezpečný a pohodlný pohyb pěšky i s kočárkem\n- dostatek zeleně, stromů a stínu\n- čistý a upravený veřejný prostor.\n\n",
+    "photo": "/assets/kandidati/stehlikova.jpg"
   },
   {
     "name": "Vladimír Foltýn",
-    "role": "Funkce nebo zaměření",
-    "bio": "Věnuje se ochraně životního prostředí a udržitelnosti s návrhy na zeleň a čistotu.",
-    "focus": "Zaměření: Životní Prostředí",
-    "photo": "/assets/tmp.png"
+    "work": "vinař",
+    "bio": "Moje priority:\n\n- rozvoj infrastruktury pro lepší život obyvatel obce a růst firem\n- péče o veřejné prostranství \n- podpora místních spolků a zájmových skupin\n- možnosti dotačních titulů při investicích naší obce\n- zodpovědná správa majetku obce.\n\n",
+    "photo": "/assets/kandidati/foltyn.jpg"
   },
   {
     "name": "Roman Benáček",
-    "role": "Funkce nebo zaměření",
-    "bio": "Expert na správu a financování veřejných zdrojů s transparentním přístupem.",
-    "focus": "Zaměření: Financování",
-    "photo": "/assets/tmp.png"
+    "work": "zámečník",
+    "bio": "Jsem zámečník a celý život dělám poctivou práci, takovou, za kterou se člověk nemusí stydět. Věřím, že obec nepotřebuje velká slova, ale hlavně lidi, kteří jsou ochotni pracovat a dotahovat věci do konce. Moje priority:\n\n- stejná pravidla pro všechny, kteří poskytují ubytování\n- rozumnější pravidla pro noční klid\n- moderní techniku a lepší zázemí pro zaměstnance obce, více efektivní práce a lepší péči o Pavlov\n\n",
+    "photo": "/assets/kandidati/benacek.jpg"
   },
   {
     "name": "Vlastimil Částek",
-    "role": "Funkce nebo zaměření",
-    "bio": "Expert na správu a financování veřejných zdrojů s transparentním přístupem.",
-    "focus": "Zaměření: Financování",
-    "photo": "/assets/tmp.png"
+    "work": "OSVČ",
+    "photo": "/assets/kandidati/castek.jpg"
   },
   {
     "name": "Jiří Hlaváč",
-    "role": "Funkce nebo zaměření",
-    "bio": "Expert na správu a financování veřejných zdrojů s transparentním přístupem.",
-    "focus": "Zaměření: Financování",
-    "photo": "/assets/tmp.png"
+    "work": "stavební technik",
+    "bio": "Jsem otec tří dětí. V Pavlově žiji se svou rodinou a záleží mi na tom, jak se naše obec bude dál rozvíjet. Díky zkušenostem z podnikání a oblasti nemovitostí bych se chtěl zaměřit především na:\n\n- smysluplný rozvoj obce\n- stav veřejného prostoru, chodníků a komunikací a větší bezpečnost\n- zároveň je pro mě důležité zachovat jedinečný charakter Pavlova a Pálavy pro další generace.\n\n",
+    "photo": "/assets/kandidati/hlavac.jpg"
   },
   {
     "name": "Vanesa Martincová",
-    "role": "Funkce nebo zaměření",
-    "bio": "Expert na správu a financování veřejných zdrojů s transparentním přístupem.",
-    "focus": "Zaměření: Financování",
-    "photo": "/assets/tmp.png"
+    "work": "studentka Univerzity T. Bati",
+    "bio": "Studuji ochranu obyvatelstva a krizové řízení, díky čemuž mám blízko k tématům bezpečnosti a fungování obce v krizových situacích. Moje priority:\n\n- bezpečnost obyvatel a bezpečný pohyb po obci \n- volnočasové aktivity pro děti \n- podpora aktivit pro seniory \n- oprava a smysluplné využití budovy školy\n\n",
+    "photo": "/assets/kandidati/martincova.jpg"
   }
 ]

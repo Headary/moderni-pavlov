@@ -1,11 +1,12 @@
-{% extends "base.njk" %}
+{% extends "layouts/base.njk" %}
 
-{% from "newsItem.njk" import newsItem %}
+{% from "components/newsItem.njk" import newsItem %}
 
 {% block content %}
 <header class="hero-section text-white py-5">
     <div class="hero-media">
-        <img class="" src="/assets/pavlov.jpg" alt="" loading="eager" fetchpriority="high">
+        <img class="" src="/assets/pavlov.jpg" alt="" loading="eager" fetchpriority="high"
+        sizes="(max-width: 250px) 250px, (max-width: 500px) 500px, (max-width: 1000px) 1000px, (max-width: 1500px) 1500px, 2000px">
     </div>
 
     <div class="container text-center">

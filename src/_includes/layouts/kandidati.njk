@@ -1,12 +1,9 @@
----
-title: Kandidáti
-layout: page.njk
-draft: true
----
+{% extends "layouts/base.njk" %}
 
-<h1>Naši Kandidáti</h1>
+{% block content %}
+<main class="container py-5">
 
-<p>Poznám tým zkušených a oddaných lidí, kteří mají vizi lepší budoucnosti pro obec Pavlov. Každý z našich kandidátů přináší jedinečné znalosti a zkušenosti v různých oblastech správy obce.</p>
+{{ content | safe }}
 
 <div class="d-flex flex-col justify-content-center">
     <div class="row g-4">
@@ -19,16 +16,19 @@ draft: true
                     <!-- Card Content -->
                     <div class="card-body">
                         <h3 class="card-title fw-bold">{{ candidate.name | safe }}</h3>
-                        <p class="card-text text-muted small">{{ candidate.role | safe }}</p>
-                        <p class="card-text">{{ candidate.bio | safe }}</p>
+                        <p class="card-text text-muted small">{{ candidate.work | safe }}</p>
+                        <p class="card-text">{% markdown candidate.bio %}</p>
                     </div>
 
                     <!-- Footer -->
-                    <div class="card-footer">
+                    <!--<div class="card-footer">
                         <small class="text-muted">{{ candidate.focus | safe }}</small>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         {% endfor %}
     </div>
 </div>
+
+</main>
+{% endblock %}

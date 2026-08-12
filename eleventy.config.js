@@ -87,6 +87,28 @@ export default function (eleventyConfig) {
     });
 
     // --------
+    // Markdown
+    // --------
+
+    const markdown = new markdownIt({
+        typographer: true,
+        quotes: "„“‚‘",
+    });
+
+    eleventyConfig.addNunjucksShortcode(
+        "markdown",
+        (content) => `<span>${markdown.render(content)}</span>`,
+    );
+
+    eleventyConfig.setLibrary(
+        "md",
+        markdownIt({
+            typographer: true,
+            quotes: "„“‚‘",
+        }),
+    );
+
+    // --------
     // Plugins
     // --------
 
@@ -97,7 +119,6 @@ export default function (eleventyConfig) {
             imgAttributes: {
                 class: "img-md-fluid d-block mx-auto",
                 loading: "lazy",
-                sizes: "(max-width: 250px) 250px, (max-width: 500px) 500px, (max-width: 1000px) 1000px, (max-width: 1500px) 1500px, 2000px",
             },
             pictureAttributes: {},
         },
@@ -145,14 +166,6 @@ export default function (eleventyConfig) {
     // --------
     // Config
     // --------
-
-    eleventyConfig.setLibrary(
-        "md",
-        markdownIt({
-            typographer: true,
-            quotes: "„“‚‘",
-        }),
-    );
 
     return {
         dir: {

@@ -96,6 +96,7 @@ content:
       - name: name
         label: Jméno
         type: string
+        required: true
       - name: work
         label: Zaměstnání
         type: string

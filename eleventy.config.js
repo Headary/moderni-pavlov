@@ -4,6 +4,7 @@ import path from "node:path";
 import * as sass from "sass";
 import truncate from "truncate-html";
 import markdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
 import { DateTime } from "luxon";
 
 const scssConfig = {
@@ -93,8 +94,9 @@ export default function (eleventyConfig) {
     const markdown = new markdownIt({
         typographer: true,
         quotes: "„“‚‘",
-        html: true,
     });
+
+    markdown.use(markdownItAttrs);
 
     eleventyConfig.addNunjucksShortcode("markdown", (content) =>
         markdown.render(content),

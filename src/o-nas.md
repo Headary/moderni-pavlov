@@ -5,7 +5,7 @@ draft: false
 
 # O Nás
 
-<a class="btn btn-outline-primary">Kandidáti v roce 2026</a>
+[Kandidáti v roce 2026](/kandidati/){.btn .btn-outline-primary}
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 

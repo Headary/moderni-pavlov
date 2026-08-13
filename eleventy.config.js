@@ -96,7 +96,9 @@ export default function (eleventyConfig) {
         quotes: "„“‚‘",
     });
 
-    markdown.use(markdownItAttrs);
+    markdown.use(markdownItAttrs, {
+        allowedAttributes: ["class"],
+    });
 
     eleventyConfig.addNunjucksShortcode("markdown", (content) =>
         markdown.render(content),

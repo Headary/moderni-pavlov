@@ -93,20 +93,14 @@ export default function (eleventyConfig) {
     const markdown = new markdownIt({
         typographer: true,
         quotes: "„“‚‘",
+        html: true,
     });
 
-    eleventyConfig.addNunjucksShortcode(
-        "markdown",
-        (content) => `<span>${markdown.render(content)}</span>`,
+    eleventyConfig.addNunjucksShortcode("markdown", (content) =>
+        markdown.render(content),
     );
 
-    eleventyConfig.setLibrary(
-        "md",
-        markdownIt({
-            typographer: true,
-            quotes: "„“‚‘",
-        }),
-    );
+    eleventyConfig.setLibrary("md", markdown);
 
     // --------
     // Plugins

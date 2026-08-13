@@ -2,47 +2,10 @@
 title: O Nás
 draft: false
 ---
+
 # O Nás
 
-Kandidádi pro volby v roce 2026:
-
-**Ing. Pavel Krška**
-
-manažer, ekonom
-
-**Kristýna Černá**
-
-podnikatelka, místopředsedkyně výboru Jihomoravského kraje pro cestovní ruch
-
-**Vladan Gryc**
-
-provozní
-
-**Mgr. Hana Stehlíková, MSc.**
-
-fotografka
-
-**Vladimír Foltýn**
-
-vinař
-
-**Roman Benáček**
-
-zámečník
-
-**Vlastimil Částek**
-
-OSVČ
-
-**Jiří Hlaváč**
-
-stavební technik
-
-**Vanesa Martincová**
-
-studentka Univerzity T. Bati
-
-
+<a class="btn btn-outline-primary">Kandidáti v roce 2026</a>
 
 Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následujících akcích pro obec:
 
@@ -56,7 +19,7 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 
 ![Boží muka](/assets/o-nas/bozi-muka.jpg)
 
-- Nově vydlážděné prostranství před Kulturním domem a okolo Obecního úřadu - idea a vypracování projektu pro dotaci z MAS Mikulovsko (rok 2008).
+- Nově vydlážděné prostranství před Kulturním domem a okolo Obecního úřadu -- idea a vypracování projektu pro dotaci z MAS Mikulovsko (rok 2008).
 
 ## Využití dotací
 
@@ -73,3 +36,4 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 - Přes opoziční postavení jsme se v současném zastupitelstvu snažili prosazovat zásady efektivního hospodaření, otevřeného informování občanů, dodržování směrnic o zadávání veřejných zakázek a dodržování jednacího řádu.
 
 Volte kandidáty, kteří chtějí Pavlov modernější, efektivnější a bezpečnější. Kandidáti, kteří již dokázali, že pro obec chtějí a umí nezištně pracovat.
+

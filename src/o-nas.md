@@ -2,8 +2,9 @@
 title: O Nás
 draft: false
 ---
-
 # O Nás
+
+Jsme tým lidí se zkušenostmi z komunální a krajské politiky i běžného života a podnikání. Lidé, kterým záleží na budoucnosti Pavlova a kteří chtějí naši obec změnit k lepšímu.
 
 [Kandidáti v roce 2026](/kandidati/){.btn .btn-outline-primary}
 

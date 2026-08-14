@@ -17,6 +17,7 @@
     "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-img": "^6.0.4",
     "bootstrap": "^5.3.8",
+    "markdown-it-attrs": "^5.0.1",
     "sass": "^1.100.0",
     "truncate-html": "^1.2.2"
   },

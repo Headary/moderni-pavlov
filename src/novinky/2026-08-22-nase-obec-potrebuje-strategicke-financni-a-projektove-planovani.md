@@ -62,3 +62,6 @@ Pár grafů řekne více, než mnoho slov, zde je shrnutí:
 ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png)
 
  Náš program na [https://modernipavlov.cz/program/](https://modernipavlov.cz/program/)
+
+![](/assets/novinky/graf1.jpg)
+

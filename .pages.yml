@@ -37,6 +37,7 @@ content:
       - name: title
         label: Nadpis
         type: string
+        description: "Nadpis je automaticky vložen jako hlavní nadpis. Pro další podnadpisy je proto nutné použít nejvýše první úroveň podnadpisů."
         required: True
       - name: date
         label: Datum
@@ -53,10 +54,10 @@ content:
       - name: body
         label: Obsah
         type: rich-text
-        description: "Nadpis je automaticky vložen jako hlavní nadpis. Pro další podnadpisy je proto nutné použít nejvýše první úroveň podnadpisů."
         options:
           media: assets
           path: src/assets/novinky
+          rename: safe
 
   - name: program
     label: Program

@@ -3,6 +3,7 @@ title: Naše obec potřebuje strategické finanční a projektové plánování!
 date: 2026-08-22
 draft: false
 ---
+
 Jedním z hlavních důvodů, proč naše obec stagnuje a zaostává za ostatními v upravenosti, infrastruktuře a službách pro občany je absence a neschopnost strategického a sofistikovaného projektového a finančního plánování a investování (jak z vlastních, tak dotačních zdrojů).
 
 Jeden graf řekne více, než mnoho slov, zde je shrnutí:
@@ -19,17 +20,10 @@ Jeden graf řekne více, než mnoho slov, zde je shrnutí:
 - Nemusíme srovnávat jen s jinými obcemi, ale např. s obdobím minulého starosty p. Foltýna, kde se z horších startovacích podmínek podařilo uskutečnit mnoho velkých investičních projektů (plynofikace obce, ČOV + splašková kanalizace v obci, nová lokalita Slunný vrch, kilometry asfaltových komunikací ve vinicích, nové komunikace a chodníky v obci - ul. Vinařská, Podhradní, Přehradní atd. atd.).
 - Přitom naše obec má ve srovnání s jinými obcemi příjmy velmi slušné, jak daňové, tak např. z ubytování či parkování.
 
-![‼](https://static.xx.fbcdn.net/images/emoji.php/v9/t77/1/16/203c.png)
+‼️ Tento stav trvá již několik volebních období. Pokud zůstane stávající vedení obce, tak se nic nezmění.
 
- Tento stav trvá již několik volebních období. Pokud zůstane stávající vedení obce, tak se nic nezmění.
+⁉️ Chceme změnu a dokážeme ji uskutečnit. Jestli se to povede, je jen na vás - na voličích.
 
-![⁉](https://static.xx.fbcdn.net/images/emoji.php/v9/tec/1/16/2049.png)
+👉 Náš program na [https://modernipavlov.cz/program/](https://modernipavlov.cz/program/)
 
- Chceme změnu a dokážeme ji uskutečnit. Jestli se to povede, je jen na vás - na voličích.
-
-![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png)
-
- Náš program na [https://modernipavlov.cz/program/](https://modernipavlov.cz/program/)
-
-![](/assets/novinky/graf1.jpg)
-
+![](/assets/novinky/vydaje-2021-2025.png)

@@ -1,0 +1,15 @@
+<div class="py-2 row g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center">
+    {% for candidate in candidates %}
+        <div class="col">
+            <div class="card h-100 shadow-sm candidate-card">
+                <img src="{{ candidate.photo }}" alt="{{ candidate.name | safe }}" class="card-img-top" align="top">
+                <div class="card-body p-2 p-sm-3">
+                    <h3 class="card-title fs-6 fw-bold mb-1 text-primary">{{ candidate.name | safe }}</h3>
+                    {% if candidate.work %}
+                        <p class="card-text text-muted small mb-0">{{ candidate.work | safe }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

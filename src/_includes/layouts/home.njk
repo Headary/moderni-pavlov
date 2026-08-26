@@ -25,11 +25,19 @@
 <main class="container py-5">
     {{ content | safe }}
 
-    <h2>Novinky</h2>
-    {% for item in collections.news | slice(0, 2) %}
-        {{ newsItem(item) }}
-    {% endfor %}
+    <section>
+        <h2>Novinky</h2>
+        {% for item in collections.news | slice(0, 2) %}
+            {{ newsItem(item) }}
+        {% endfor %}
+        <a class="btn btn-outline-primary btn-sm" href="/novinky/">Archiv novinek</a>
+    </section>
 
-    <a class="btn btn-outline-primary btn-sm" href="/novinky/">Archiv novinek</a>
+
+    <section class="py-4">
+        <h2>Naši kandidáti</h2>
+        {% include "components/kandidati.njk" %}
+        <a href="/kandidati/" class="btn btn-outline-primary btn-sm">Podrobný popis kandidátů</a>
+    </section>
 </main>
 {% endblock %}

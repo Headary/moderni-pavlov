@@ -13,7 +13,7 @@ prací by dnes jejich realizace stála řádově o miliony korun více**. Podle 
 odhadů může rozdíl dosahovat za posledních 5–6 letech až kolem 10 milionů Kč.
 - V návaznosti na rozvojový plán obce **budeme aktivně hledat dotační financování**
 z MMR, Jihomoravského kraje, evropských fondů, Nadace ČEZ atd. Nebudeme jen
-pasivními příjemci malých dotací, které za nás vyřidí někdo jiný, např. Místní
+pasivními příjemci malých dotací, které za nás vyřídí někdo jiný, např. Místní
 akční skupina Mikulovsko.
 - **Čekají nás náročné investiční projekty**, které byly dlouhodobě zanedbávány a
 neřešeny. Nyní budou bohužel stát násobně více, než by tomu bylo několik let
@@ -34,5 +34,5 @@ Mladé rodiny, které si postaví rodinný dům, musí mít v dnešní době mo�
 bez problémů napojit na ČOV.
 - **Využít dotační programy na zpevnění vybraných polních cest** v majetku obce, aby
 mohly sloužit jako kombinované komunikace i pro cyklisty.
-- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejm. v historické části obce) a v návaznosti na to řešit rekonstrukci chodníků.
+- Ve spolupráci s EG.D chceme **znovu otevřít možnost přesunu elektrického vedení do země** (zejména v historické části obce) a v návaznosti na to řešit rekonstrukci chodníků.
 

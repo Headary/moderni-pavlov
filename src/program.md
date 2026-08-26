@@ -1,19 +1,19 @@
 ---
 title: Program
 ---
+
 # Volební program pro komunální volby 2026
 
-Obecné sliby o podpoře sportu, kulturních akcí, akcí pro seniory a děti a
-neurčitém rozvoji obce vám dávat nebudeme. To totiž není program, ale samozřejmá
-povinnost každého starosty, a tyto aktivity budeme samozřejmě podporovat a
-rozvíjet.
+Podpora sportu, kulturních akcí, akcí pro seniory a děti a obecný rozvoj obce
+považujeme za samozřejmou povinnost každého starosty. Tyto aktivity jsou pro nás
+základem a budeme je i nadále podporovat a rozvíjet.
 
-Je nám líto, že okolní obce Pavlov již dávno předstihly v oblasti rozvoje,
-infrastruktury a komunikace, a máme za to, že obec Pavlov zdaleka nevyužívá svůj
-potenciál a měla by občanům nabídnout daleko více. Myslíme si, že Pavlov
-potřebuje změnu a my vám ji nabízíme.
+Naše obec by ale měla občanům poskytnout mnohem víc. Pavlov potřebuje změnu a my
+vám ji nabízíme. Naplno využijeme potenciál naší obce a postaráme se o její
+rozvoj, infrastrukturu i lepší komunikaci s občany.
 
-Představujeme vám jasný, konkrétní program, jehož plnění půjde zkontrolovat na
+Představujeme vám jasný, konkrétní program, jehož plnění snadno zkontrolujete na
 konci volebního období.
 
-Náš program chceme rozdělit do 7 základních kapitol:
+Náš program sestává ze 7 základních kapitol:
+

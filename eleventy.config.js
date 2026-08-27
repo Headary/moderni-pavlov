@@ -38,6 +38,9 @@ const scssConfig = {
             return result.css;
         };
     },
+    compileOptions: {
+        permalink: false,
+    },
 };
 
 export default function (eleventyConfig) {

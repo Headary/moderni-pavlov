@@ -3,7 +3,7 @@ title: Sportovní a volnočasové aktivity pro děti
 index: 3
 ---
 
-- **Naše děti (zejm. menší ve věku 6–12 let) by měly mít "malé víceúčelové
+- **Naše děti (zejména menší ve věku 6–12 let) by měly mít "malé víceúčelové
   hřiště", kde si mohou hrát míčové hry (malá kopaná, vybíjená atd.).** Nabízí
   se prostor hřiště pod poštou, který tomuto účelu dříve sloužil. Stávající
   herní prvky lze posunout, příp. přesunout na jiné vhodné místo.

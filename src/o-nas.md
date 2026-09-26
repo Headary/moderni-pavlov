@@ -25,7 +25,7 @@ Naši kandidáti se v uplynulých obdobích kromě jiného podíleli na následu
 ## Využití dotací
 
 - Naučná vinařská stezka – vypracování projektu a získání dotace z Vinařského fondu.
-- Vinařské akce – pořádání Dne otevřených sklepů, výstavy vín a dalších vinařských akcí. Finanční prostředky z vinařských akcí byly mimo jiné věnovány na opravu sociálního zařízení v kulturním domě a na nákup lehátek a dalšího vybavení v mateřské škole.
+- Vinařské akce – pořádání Dne otevřených sklepů, výstavy vín a dalších vinařských akcí, Dětský karneval, Vinařské rozloučení s prázdninamy pro děti.. Finanční prostředky z vinařských akcí byly mimo jiné věnovány na opravu sociálního zařízení v kulturním domě a na nákup lehátek a dalšího vybavení v mateřské škole.
 
 ![Výstava vín 2026](/assets/o-nas/vystava-vin.jpg)
 
